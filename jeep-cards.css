@@ -1,0 +1,273 @@
+/* -------------------------------------------------------------------jeep cards-----------------------------------------*/
+
+
+.jeep-card-container
+
+{
+display:flex;	
+justify-content:center;
+align-items: center;
+height:auto;
+flex-wrap:wrap;	
+margin-top:100px;	
+background: rgba(14,14,14,1);
+//background: #212121;
+padding-bottom:40px;	
+
+
+}
+
+.jeep-card-inner
+
+{
+	
+display:flex;
+max-width:1366px;	
+justify-content:center;
+align-items: center;
+//flex-wrap:wrap;	
+gap:20px;	
+overflow:hidden;
+height:auto;
+//background-color:blue;
+//background: rgba(14,14,14,1);
+padding:0 20px;
+
+
+
+	
+}
+
+.jeep-card-head
+
+{
+
+width:100%;	
+text-align:center;
+margin-bottom:20px;
+padding:20px 20px 8px 20px;
+color: white;
+font-size:24px;
+font-weight:500;
+//letter-spacing:1px;
+}
+
+
+.card-heading pre
+
+{
+
+white-space: pre-wrap;
+ font-family:arial;
+ font-size:25px;
+ font-weight:100;
+line-height:35px;
+color:white;
+margin-top:30px;
+text-transform:uppercase;	
+	
+}
+
+
+
+
+.card-btn
+{
+
+display:block;
+width:100%;
+padding:20px 20px;
+text-align:center;
+font-family:arial;
+text-transform:uppercase;
+background: rgba(14,14,14,1);
+//background: #212121;
+}
+
+
+.card-s pre
+{
+
+font-weight:100;
+font-size:12px;	
+letter-spacing:1px;
+line-height:36px;
+color: rgb(180,180,180);	
+}
+
+
+.card-s2 pre
+{
+
+font-weight:550;
+font-size:18px;	
+letter-spacing:2px;
+line-height:23px;
+color: rgb(255,255,255);	
+}
+
+
+
+.jeep-social-cards
+
+{
+
+display:flex;
+flex:1 1 auto;
+justify-content:center;
+align-items: center;
+overflow:hidden;
+flex-direction:column;
+transition: all .3s ease-in-out;
+cursor:pointer;
+//border:1px solid rgba(30,30,30,1);
+border:1px solid rgba(60,60,60,1);
+
+background: rgba(14,14,14,1);	
+ 
+}
+
+
+.social-card-img
+
+{
+width:100%;
+overflow:hidden;	
+background-image: url("images/wave9.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+min-height:290px;
+background-position:center center;	
+position: relative
+
+}
+
+.social-card-img2
+
+{
+	
+width:100%;
+overflow:hidden;	
+background-image: url("images/card5.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+min-height:290px;
+background-position:center center;	
+position: relative
+	
+	
+}
+
+
+.social-card-img3
+
+{
+width:100%;
+overflow:hidden;	
+background-image: url("images/hero9.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+min-height:290px;
+background-position:center center;	
+position: relative;
+	
+}
+
+.social-card-img4
+
+{
+display:flex;
+width:100%;
+overflow:hidden;	
+background-image: url("images/card3.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+min-height:300px;
+background-position:center;	
+justify-content:center;
+align-items:center;
+align-content:center;
+flex-direction:column;
+	
+}
+
+
+
+
+
+.overlay {
+  
+//background: rgba(159,117,4,1);
+//background: linear-gradient(0deg, rgba(159,117,4,0.9) 0%, rgba(251,188,16,0.9) 100%);
+
+//background: rgb(200,146,0);
+//background: linear-gradient(0deg, rgba(200,146,0,0.8) 0%, rgba(221,161,0,1) 100%);
+
+
+  background-color: rgba(10,10,10,0.9);
+  position: absolute;
+  bottom:0;
+  left: 0;
+  right: 0;
+ top:100%;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+  
+  
+  
+  
+}
+
+.jeep-social-cards:hover .overlay {
+   top: 0;
+  height: 100%;
+}
+
+.pop-up {
+  color: #212121;
+ 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+ -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+ 
+}
+
+.pop-up pre
+{
+
+//color: #414141;
+//color: rgb(200,200,200);
+color: white;
+  font-size: 14px;
+  font-weight:300;
+  //line-height:26px;
+	letter-spacing:4px;
+	margin-top:5px;
+}
+
+.pop-up img
+
+{
+ max-width:100%;
+margin-top:11px; 
+	
+	
+}
+
+
+
+
+
+
+.underline-card
+{
+text-decoration: underline #212121 2px;
+text-underline-offset: 7px;
+	
+	
+}

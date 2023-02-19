@@ -1,0 +1,2479 @@
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+body, html {
+    height: 100%;
+}
+
+
+pre {
+	
+white-space: pre-wrap;
+//font-family:'helvetica', arial;
+ //font-family:poppins,arial;
+ font-size:20px;
+ font-weight:100;
+line-height:27px;
+color:#616161;
+ -webkit-transition: 1s ease;
+ -moz-transition: 1s ease;
+ -o-transition: 1s ease;
+ transition: 1s ease;	
+font-family: 'Roboto', arial;	
+	
+}
+
+
+
+p {
+	
+//font-family:'helvetica', arial;
+ font-size:12px;	
+font-family:arial;	
+}
+
+img 
+{
+max-width:100%;	
+	
+}
+
+
+.desktop-nav
+{
+
+display:initial;	
+	
+}
+
+.mobile-nav, .Jeep-select-mobi
+{
+
+display:none;	
+	
+}
+
+
+pre, .icon2
+
+{
+	
+    -webkit-transition: 1s ease;
+         -moz-transition: 1s ease;
+               -o-transition: 1s ease;
+                     transition: 1s ease;	
+	
+	
+	
+}
+
+
+
+
+/* -----------------------------------------------------------scroll bar styles-------------------------------------------------------------------- */
+
+.head-box::-webkit-scrollbar {
+  height: 8px;
+  
+}
+
+/* Track */
+.head-box::-webkit-scrollbar-track {
+  //height: 0px;
+   //border:(14,14,14,0.6);
+   
+}
+ 
+.head-box::-webkit-scrollbar-track:hover {
+  //height: 0px;
+   background:rgba(65,65,65,0.5);
+} 
+ 
+ 
+ 
+ 
+/* Handle */
+.head-box::-webkit-scrollbar-thumb {
+ 
+ //background: rgba(30,30,30,1);
+  //background: transparent;
+//border-radius:40px;
+  
+}
+
+/* Handle on hover */
+.head-box::-webkit-scrollbar-thumb:hover {
+
+  //background: rgba(55,55,55,1);
+  background: #e9aa02;
+ border-radius:50px;
+  
+}
+
+
+.scroll2::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+.scroll2::-webkit-scrollbar
+{
+	height: 10px;
+	background-color: #F5F5F5;
+}
+
+.scroll2::-webkit-scrollbar-thumb
+{
+	background-color: #000000;
+	border: 2px solid #555555;
+}
+
+
+
+
+
+/* -----------------------------------------------------------button styles-------------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------    hero button styles    ------------------------------------------------------------------- */
+
+
+.btn-hero-main {
+  
+ 
+ 
+  margin-top: 35px;
+   box-shadow:inset 0px 0px 0px 1px white;
+	 //box-shadow:inset 0px 0px 0px 1px #212121;
+  width:167px;
+  //height:50px;
+  
+}
+
+.btn-hero-main a{
+  
+  display: block;
+  padding:21px 18px;
+	font-family:arial;
+     font-size: 14px;
+	 font-weight:bold;
+	text-transform:uppercase; 
+  text-decoration: none;
+  color: #212121;
+    position: relative;
+   background:rgba(255,255,255,0.6);
+   
+}
+
+ .btn-hero-main a span{
+  position: relative;
+  z-index: 2;
+  
+}
+
+.btn-hero-main a::after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height:100%;
+  background: #e9aa02;
+    transition: all .30s;
+  //box-shadow:inset 0px 0px 0px 2px #ecac03;
+  
+  
+}
+
+.btn-hero-main a:hover{
+  color: #212121;
+  
+
+ 
+}
+
+.btn-hero-main a:hover::after{
+  width: 100%;
+  
+
+}
+
+
+
+/* buttons find out more */
+
+.btn-find-out {
+  
+ 
+  margin:auto;
+ //width:150px;
+  text-align:center;
+  
+}
+
+.btn-find-out a{
+  display: block;
+  padding:16px 13px;
+  margin-top:30px;
+  margin-bottom:10px;
+	font-family:arial;
+     font-size: 12px;
+	 font-weight:bold;
+text-decoration: none;
+ text-transform:uppercase;
+  color: #212121;
+    position: relative;
+   box-shadow:inset 0px 0px 0px 1.3px #636363;
+  
+}
+
+ .btn-find-out a span{
+  position: relative;
+  z-index: 9;
+}
+
+.btn-find-out a:after{
+  position: absolute;
+  content: "";
+  //right: 0;
+ bottom:0;
+ left:0;
+  width: 0;
+  height:100%;
+ background: #e9aa02;
+  //border: 1px solid #e9aa02;
+  transition: all .40s;
+  //-webkit-transition: all .5s ease-in-out;
+  
+}
+
+.btn-find-out a:hover{
+  color: #212121;
+ 
+}
+
+.btn-find-out a:hover:after{
+  width: 100%;
+ 
+}
+
+
+
+.btn-visit-us {
+  
+ 
+  margin:auto;
+  text-align:center;
+  
+}
+
+.btn-visit-us a{
+  display: block;
+  padding:12px 12px;
+ margin-top:25px;
+ 	font-family:arial;
+     font-size: 11px;
+	 font-weight:900;
+text-decoration: none;
+ text-transform:uppercase;
+  color: rgb(14,14,14);
+// border:1px solid rgb(100,100,100);
+background-color: rgb(200,200,200); 
+border-radius:50px;
+transition: all .3s ease-in-out;
+ 
+  }
+
+
+
+
+
+.btn-visit-us a:hover{
+  color: #212121;
+ background-color:#e9aa02;
+}
+
+
+
+/* buttons read more */
+
+.btn-read {
+  
+ 
+  //margin:auto;
+ width:110px;
+  text-align:center;
+  
+}
+
+.btn-read a{
+  display: block;
+  padding:15px 13px;
+  margin-top:15px;
+  margin-bottom:10px;
+	font-family:arial;
+     font-size: 11px;
+	 font-weight:bold;
+text-decoration: none;
+ text-transform:uppercase;
+  color: #212121;
+    position: relative;
+   box-shadow:inset 0px 0px 0px 1.3px #636363;
+  
+}
+
+ .btn-read a span{
+  position: relative;
+  z-index: 9;
+}
+
+.btn-read a:after{
+  position: absolute;
+  content: "";
+  //right: 0;
+ bottom:0;
+ left:0;
+  width: 0;
+  height:100%;
+ background: #e9aa02;
+  //border: 1px solid #e9aa02;
+  transition: all .40s;
+  //-webkit-transition: all .5s ease-in-out;
+  
+}
+
+.btn-read a:hover{
+  color: #212121;
+ 
+}
+
+.btn-read a:hover:after{
+  width: 100%;
+ 
+}
+
+
+
+
+
+
+
+
+
+/* -----------------------------------------------------------text styles-------------------------------------------------------------------- */
+
+.icon2
+{
+font-family:arial;
+font-weight:100; 
+color:#414141;
+font-size:24px; 
+//background:#212121; 
+font-family:arial;
+
+
+ -webkit-transition: 1s ease;
+         -moz-transition: 1s ease;
+               -o-transition: 1s ease;
+                     transition: 1s ease;	
+
+
+
+
+	
+}
+
+
+.icon
+{
+font-family:arial;
+font-weight:700; 
+color:#414141;
+font-size:17px; 
+//background:#212121; 
+font-family:arial;
+padding:6px;
+border-radius:50%;
+border:2px solid #616161;
+
+ -webkit-transition: 1s ease;
+         -moz-transition: 1s ease;
+               -o-transition: 1s ease;
+                     transition: 1s ease;	
+
+
+
+
+	
+}
+
+
+
+
+
+
+
+
+
+.headline 
+
+{
+
+font-family:'Poppins', helvetica, arial;
+//font-family:helvetica, arial;	
+//color:#212121;
+color:#313131;
+font-size:23px; 
+font-weight:600;
+text-decoration: underline #e9aa02 3px;
+text-underline-offset: 7px;
+line-height:45px;
+text-transform:uppercase;
+	
+	
+	
+ -webkit-transition: 1s ease;
+         -moz-transition: 1s ease;
+               -o-transition: 1s ease;
+                     transition: 1s ease;		
+	
+}
+
+
+
+.banner-headings
+
+{
+
+color:white; 
+//font-family:poppins,helvetica,arial;
+font-family: 'Poppins', arial;
+font-size:60px;
+color:white;
+font-weight:700;
+text-transform:capitalize;
+text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+line-height:65px;	
+//font-family: 'Roboto', sans-serif;
+//font-family: 'Roboto', sans-serif;
+-webkit-transition: 1s ease;
+         -moz-transition: 1s ease;
+               -o-transition: 1s ease;
+	
+}
+
+
+
+
+
+.headline-no-underline
+
+{
+color:#313131;
+font-size:40px; 
+font-weight:650;
+font-family:'Poppins',helvetica,arial;
+line-height:45px;
+
+text-transform:capitalize;
+
+-webkit-transition: 1s ease;
+         -moz-transition: 1s ease;
+               -o-transition: 1s ease;
+                     transition: 1s ease;	
+
+
+}	
+
+.headline-no-underline2
+
+{
+color:#313131;
+font-size:32px; 
+font-weight:550;
+font-family: helvetica,arial;
+line-height:48px;
+//line-height:3.625em;
+text-transform:uppercase;
+
+}	
+
+
+
+.underline
+
+{
+text-decoration: underline #e9aa02 3px;
+text-underline-offset: 10px;	
+	
+} 
+
+.underline-small1
+
+{
+text-decoration: underline #e9aa02 2px;
+text-underline-offset: 8px;	
+	
+	
+}
+
+.underline-smaller
+
+{
+text-decoration: underline #e9aa02 1px;
+text-underline-offset: 7px;	
+	
+	
+}
+
+
+
+/* -----------------------------------------------arrow icon---------------------------------------------- */
+
+.arrow-content {
+  border: solid #212121;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-left: 8px;
+  margin-bottom:0; 
+ 
+}
+
+.arrow-nav {
+  border: solid #5c5b5b;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-left: 6px;
+  margin-bottom:3px;
+  //color: #343434;
+}
+
+
+.arrow-hero {
+ border: solid #212121;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-left: 8px;
+  margin-bottom:0; 
+
+}
+
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+
+/* -----------------------------------------------------------header section-------------------------------------------------------------------- */
+
+.head-container {
+
+display:flex;	
+justify-content:center;
+align-items: center;
+width:100%;
+//background: #0e0e0e;
+background: rgba(14,14,14,0.96);
+backdrop-filter: blur(6px);
+color:white;
+box-shadow: 0px 0px 20px 6px #0e0e0e;
+position: fixed;
+top: 0;
+transition: top 0.5s;
+//border-bottom: 2px solid #313131;
+//border-bottom: 1px solid #3d3d3d;
+border-bottom: 1px solid #3d3d3d;
+//border-bottom: 2px solid white;
+//border-bottom: 1px solid #262626;
+z-index:98;
+//padding:1em 0.7em;
+
+
+
+ -webkit-transition: 1s ease;
+         -moz-transition: 1s ease;
+               -o-transition: 1s ease;
+                     transition: 1s ease;	
+
+
+
+
+
+
+}
+
+
+
+
+
+
+.head-box {
+display:flex;
+justify-content:space-between;
+align-items: center;	
+flex-basis:1366px;
+padding:12px 20px;
+
+ //overflow-x: auto; 
+ 
+ 
+ -webkit-transition: 1s ease;
+         -moz-transition: 1s ease;
+               -o-transition: 1s ease;
+                     transition: 1s ease;	 
+ 
+ 
+ 
+ 
+  
+}
+
+.logo
+{
+//flex-basis:10%;
+flex:0 0 20%;
+margin-top:8px;
+//position:absolute;
+margin-right:20px;
+//background-color:green;
+
+
+
+ -webkit-transition: 1s ease;
+         -moz-transition: 1s ease;
+               -o-transition: 1s ease;
+                     transition: 1s ease;	
+
+
+
+
+
+
+}
+
+.logo img
+
+{
+	
+max-width:40%;	
+	
+ -webkit-transition: 1s ease;
+         -moz-transition: 1s ease;
+               -o-transition: 1s ease;
+                     transition: 1s ease;		
+	
+	
+	
+}
+
+
+
+
+/* -----------------------------------------------------------navigation-------------------------------------------------------------------- */
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------hero section-----------------------------------------*/
+
+.hero-container
+{
+display:flex;
+background-image: url("images/hero/hero16.jpg") ;
+background-size: cover ;
+background-repeat: no-repeat;
+background-attachment: fixed;
+min-height:700px;
+background-position:center;	
+justify-content:center;
+align-items: center;
+overflow:hidden;
+	
+}
+
+.hero-inner
+{
+display:flex;
+flex-basis:1366px;
+justify-content:flex-end;
+align-content: center;
+margin-top:90px;
+padding:12px 20px;
+//background:blue;
+
+}
+
+.hero-text-box pre
+
+{
+	
+text-align:right;	
+	
+}
+
+
+
+
+.hero-text-box
+{
+display:flex;
+flex-direction:column;
+justify-content:flex-start;
+width:100%;
+align-items: flex-end;
+//background:green;
+height:auto;
+//overflow:hidden;
+}
+
+
+
+
+
+
+/* -------------------------------------------------------------------jeep selection section-----------------------------------------*/
+
+.jeep-container
+{
+
+display:flex;	
+justify-content:center;
+align-items: center;
+overflow:hidden;
+
+-webkit-transition: 1s ease;
+-moz-transition: 1s ease;
+-o-transition: 1s ease;
+transition: 1s ease;	
+
+
+
+
+
+
+}
+
+.jeep-inner
+{
+display:flex;
+max-width:1366px;	
+justify-content:center;
+align-items: flex-start;
+//background:blue;
+//flex-wrap:wrap;
+padding:10px;
+
+
+-webkit-transition: 1s ease;
+         -moz-transition: 1s ease;
+               -o-transition: 1s ease;
+                     transition: 1s ease;	
+
+
+
+
+
+
+
+}
+
+
+.jeep-colums
+{
+
+//flex-grow:1;
+//flex-basis:32%;
+flex:1 1 auto;
+display:flex;
+flex-direction:column;
+justify-content:flex-start;
+align-items: center;
+align-content: center;
+overflow:hidden;
+padding:15px;
+//margin-top:5px;
+//margin-bottom:10px;
+//box-shadow: 0px 0px 10px 2px rgba(33,33,33,0.2);
+text-align:center;
+
+-webkit-transition: 1s ease;
+         -moz-transition: 1s ease;
+               -o-transition: 1s ease;
+                     transition: 1s ease;	
+
+
+
+
+
+}
+
+.jeep-colums img
+
+{
+max-width:100%; 
+margin-top:36px;	
+
+-webkit-transition: 1s ease;
+         -moz-transition: 1s ease;
+               -o-transition: 1s ease;
+                     transition: 1s ease;	
+	
+	
+}
+
+
+
+
+
+.pre-style
+
+{
+
+margin-top:10px; 
+//text-transform:uppercase; 
+line-height:35px; 
+font-family:arial;
+//line-height:35px;	
+color:#313131;	
+
+
+-webkit-transition: 1s ease;
+         -moz-transition: 1s ease;
+               -o-transition: 1s ease;
+                     transition: 1s ease;	
+
+
+
+}
+
+
+.sub-heading
+{
+
+font-size:24px;
+font-weight:bold;
+line-height:28px;
+//color:#5f5f5f;
+
+
+
+-webkit-transition: 1s ease;
+         -moz-transition: 1s ease;
+               -o-transition: 1s ease;
+                     transition: 1s ease;	
+
+
+
+
+
+	
+}
+
+.first-line
+{
+font-size:19px; 
+font-weight:600;
+//color:#e9aa02;
+color:#2e2e2e;
+//color:#515151;
+//color:#424242;	
+	
+font-style:italic;
+text-transform:capitalize;
+text-decoration: underline grey 2px;
+text-underline-offset: 4px;
+
+
+-webkit-transition: 1s ease;
+-moz-transition: 1s ease;
+ -o-transition: 1s ease;
+ transition: 1s ease;	
+
+
+
+
+
+}
+
+.second-line
+{
+	
+font-size:22px;
+font-weight:500;	
+//color:#7f7f7f;
+color:#424242;
+//color:#e9aa02;
+//color:#5f5f5f;	
+
+
+
+-webkit-transition: 1s ease;
+         -moz-transition: 1s ease;
+               -o-transition: 1s ease;
+                     transition: 1s ease;	
+
+
+
+
+
+	
+}
+
+.third-line
+{
+
+font-size:16px;
+font-weight:500;
+//color:#5f5f5f;	
+//color:#e9aa02;
+//color:#7f7f7f;
+color:#424242;	
+	
+	
+	
+-webkit-transition: 1s ease;
+         -moz-transition: 1s ease;
+               -o-transition: 1s ease;
+                     transition: 1s ease;		
+	
+	
+	
+	
+	
+	
+	
+}
+
+.fourth-line
+
+{
+
+font-weight:bold;	
+font-size:22px; 	
+line-height:22px;	
+color:#323232;
+text-decoration: underline #e9aa02 2px;
+text-underline-offset: 5px;
+	
+	
+-webkit-transition: 1s ease;
+         -moz-transition: 1s ease;
+               -o-transition: 1s ease;
+                     transition: 1s ease;		
+	
+	
+	
+	
+	
+	
+}
+
+/* -------------------------------------------------------------------jeep test drive banner section-----------------------------------------*/
+
+.test-drive-container
+
+{
+	
+display:flex;
+background-image: url("images/banners/wave6.jpg");
+background-size: cover ;
+background-repeat: no-repeat;
+background-attachment: fixed;
+min-height:550px;
+background-position:center;	
+justify-content:center;
+align-items: center;
+overflow:hidden;
+//margin-top:13px;
+
+}
+
+.test-drive-inner
+
+{
+
+display:flex;
+flex-basis:1366px;
+justify-content:flex-start;
+align-content: center;
+padding:20px 20px;
+	
+	
+}
+
+
+.test-drive-textbox
+
+{
+display:flex;
+flex-direction:column;
+text-align:left; 
+flex-basis:45%;
+
+-webkit-transition: 1s ease;
+         -moz-transition: 1s ease;
+               -o-transition: 1s ease;
+                     transition: 1s ease;	
+
+
+	
+}
+
+
+.test-drive-heading
+
+{
+
+color:white; 
+font-family:poppins,arial;
+font-size:60px;
+color:white;
+font-weight:700;
+text-transform:capitalize;
+text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+line-height:65px;	
+
+
+-webkit-transition: 1s ease;
+         -moz-transition: 1s ease;
+               -o-transition: 1s ease;
+                     transition: 1s ease;	
+
+
+
+
+
+
+	
+}
+
+
+/* -------------------------------------------------------------------content selection section-----------------------------------------*/
+
+
+.content-selection-container
+
+{
+
+display:flex;	
+justify-content:center;
+align-items: center;
+overflow:hidden;	
+margin-top:52px;
+margin-bottom:30px;
+flex-wrap:wrap;
+//box-shadow: -10px -10px 60px 60px rgba(0,0,0,0.6);	
+//box-shadow: 10px 10px 20px 20px rgba(255,255,255);
+}
+
+
+.content-inner
+
+{
+
+display:flex;
+max-width:1366px;	
+justify-content:space-between;
+align-items: center;
+padding:0 20px;
+flex-wrap:wrap;	
+}
+
+.content-images
+{
+flex:2 2 50%;
+display:flex;
+justify-content:center;
+align-items: center;
+overflow:hidden;
+//padding:10px 10px ;
+//order:1;
+}
+
+.content-text
+{
+flex:1 1 50%;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items: flex-start;
+padding:0 10px 0 50px ;
+//order:0;
+}
+
+
+
+/* -------------------------------------------------------------------jeep wave section-----------------------------------------*/
+
+.wave-container
+
+{
+	
+display:flex;
+background-image: url("images/banners/support12.jpg");
+background-size: cover ;
+background-repeat: no-repeat;
+background-attachment: fixed;
+min-height:550px;
+background-position:top;	
+justify-content:center;
+align-items: center;
+overflow:hidden;
+//margin-top:25px;
+
+}
+
+
+.wave-inner
+
+{
+
+display:flex;
+flex-basis:1366px;
+justify-content:flex-start;
+align-content: center;
+padding:20px 20px;	
+	
+}
+
+.wave-textbox
+
+{
+
+display:flex;
+flex-direction:column;
+text-align:left; 
+flex-basis:50%;
+	
+}
+
+.wave-heading
+
+{
+
+//color:white; 
+font-family:arial;
+font-size:60px;
+color:white;
+font-weight:550;
+text-transform:capitalize;
+text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+line-height:65px;
+
+		
+}
+
+
+/* -------------------------------------------------------------------app store-----------------------------------------*/
+
+
+.app-store img
+
+{
+max-width:32%;	
+margin-top:20px;
+cursor:pointer;
+
+}
+
+
+
+/* -------------------------------------------------------------------fan wall section-----------------------------------------*/
+  
+  
+  
+  .fit img
+  
+  {
+	
+//border:1px solid rgba(150,150,150,1);	
+//padding:5px;
+	
+	  
+  }
+
+.fan-wall-container
+
+{
+	
+display:flex;
+flex-direction:column;	
+justify-content:flex-start;
+align-items: center;
+align-content:center;
+overflow:hidden;	
+margin-top:80px;
+
+}
+
+.fan-wall-inner
+
+{
+
+display:flex;
+max-width:1366px;
+height:auto;
+overflow:hidden;	
+justify-content:center;
+align-items: center;
+align-content:center;
+flex-wrap:wrap;
+padding:10px 5px 1px 5px;
+//gap:0 3px;
+//flex-direction:column;
+//flex-direction:row;
+//background:blue;
+border:1px solid rgba(150,150,150,1);
+row-gap:1.5px;
+column-gap:1px;
+//gap:1.5px;	
+}
+
+
+
+.wall_box_small
+
+{
+ //flex-basis:33.33%;
+ flex:1 1 32%;
+//height:10%;
+border-left:2.5px solid white;
+border-right:2.5px solid white;
+border-top:1px solid white;
+//border-bottom:1px solid white;
+overflow:hidden;
+
+	
+}
+
+.wall_box_smaller
+
+{
+
+//flex-basis:33.33%;
+ flex:1 1 22%;
+//height:10%;
+//border-left:2.7px solid white;
+//border-right:2.7px solid white;
+//border-top:1px solid white;
+//border-bottom:1px solid white;
+overflow:hidden;
+margin-top:-4.5px;	
+
+	
+}
+
+
+
+.wall_box_smallest
+
+{
+
+
+
+
+ flex:1 1 18%;
+//
+//border-left:2.7px solid white;
+//border-right:2.7px solid white;
+//border-top:1px solid white;
+//border-bottom:1px solid white;
+overflow:hidden;
+margin-top:-4px;
+
+	
+}
+
+
+
+
+.wall_box_big
+
+{
+
+//flex-basis:50%;
+flex:1 1 auto;
+//min-height:200px;
+//border:1px solid white;
+border-left:2.5px solid white;
+border-right:2.5px solid white;
+border-top:1px solid white;
+//border-bottom:1px solid white;
+overflow:hidden;
+}
+
+.fan-border
+
+{
+
+//border:1px solid grey;
+//padding:20px 20px;	
+//width:auto;	
+}
+
+
+/* -------------------------------------------------------------------footer banner section-----------------------------------------*/
+
+
+.footer-banner { 
+//filter: grayscale(97%);
+display:flex;
+justify-content:center;
+align-content:flex-start;
+background-image: url("images/footer-bg/footer-bg.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+min-height:600px;
+background-position:center;	
+overflow:hidden;
+margin-top:20px;
+flex-wrap:wrap;
+padding:0.7em;
+}
+
+.footer-text
+{
+flex-basis:1300px;	
+//margin:auto;
+font-family: arial;
+font-size:28px;
+text-align:center;
+text-transform:uppercase;
+font-weight:500;
+color:#666565;
+margin-top:45px;
+overflow:hidden;
+letter-spacing:5px;
+line-height:40px;
+padding:0 1em;	
+	
+}
+
+.content-spacer
+
+{
+
+width:80%;
+margin:auto;	
+height:20px;
+margin-top:5px;
+overflow:hidden;
+font-family:helvetica, arial;
+font-size:42px;
+font-weight:bold;
+letter-spacing:-8px;
+padding:0;
+color:#c3c3c2;
+//color:#e9aa02;
+text-align:center;	
+}	
+	
+.spacer-bar
+
+{
+
+width:65%;
+margin:auto;	
+height:6px;
+margin-top:50px;
+overflow:hidden;
+background-color:#c1c1c1;
+
+
+}	
+
+.spacer-contain
+{
+width:100%;
+padding:20 130px;
+margin-top:5px;
+
+	
+}
+
+
+
+/* -------------------------------------------------------------------footer section-----------------------------------------*/
+
+.foot-container
+
+{
+display:flex;
+//flex-basis:100%;
+min-height:250px;
+background:#212121;
+justify-content:center;
+overflow:hidden;
+//background-color:blue;
+}	
+
+	
+.foot-inner
+
+{
+
+display:flex;
+flex-basis:1366px;
+//height:200px;
+//background:green;
+justify-content:space-between;
+overflow:hidden;
+padding:12px 20px;
+//flex-wrap:wrap;
+
+}	
+	
+.foot-boxes
+{
+//flex-basis:24%;
+flex:0 1 auto;
+display:flex;
+flex-direction:column;
+justify-content:flex-start;
+align-items: flex-start;
+//overflow:hidden;
+padding:15px;
+//background:blue;
+
+}	
+	
+	
+.info-text
+{
+
+color:#616160; 
+font-size: 17px;
+line-height:27px;
+	
+	
+}	
+	
+.foot_heading2 
+
+{
+
+font-family: arial;	
+color:#d0cfcf;
+font-size:17px; 
+font-weight:bold;
+text-decoration: underline #e9aa02 3px;
+text-underline-offset: 7px;
+line-height:35px;
+text-transform:uppercase;
+-webkit-transition: 1s ease;
+         -moz-transition: 1s ease;
+               -o-transition: 1s ease;
+                     transition: 1s ease;	
+	
+}	
+	
+.hover-image img 
+{
+	
+opacity: 0.5;
+cursor: pointer;
+//all .6s ease-in-out;	
+	
+}
+
+.hover-image img:hover 
+{
+	
+opacity: 1;
+//cursor: pointer;
+all .6s ease-in-out;	
+	
+}	
+
+
+.foot-logo-box
+{
+display:flex;
+align-items:center;	
+justify-content:space-between;	
+margin-top:10px;
+flex:0 1 auto;	
+	
+}
+
+.foot-social
+{
+display:flex;
+align-items:center;	
+justify-content:space-around;	
+	
+	
+}
+
+.social-image img
+
+{	
+max-width:75%;	
+		
+}
+
+.jeep-foot-logo img
+{
+	
+max-width:85%;	
+	
+}
+
+.final-footer
+{
+display:flex;	
+background-color:rgba(14,14,14,1);
+//background-color:green;
+padding:20px;
+text-align:center;
+justify-content:center;
+border-top: 1px solid #3f3e3e;
+color:#616160;
+font-size: 14px;
+font-family: arial;
+border-bottom: 1px solid #3f3e3e;
+line-height:25px;	
+}
+
+
+	
+
+/* --------------footer hyper links ------------------- */
+
+.foot a:link
+{
+	
+color:#616160;
+line-height: 28px;	
+font-size:16px;		
+text-decoration:none;
+
+	
+	
+}
+
+.foot a:visited
+{
+	
+color:#616160;
+//text-decoration:none;
+
+	
+	
+}
+
+
+.foot a:hover {
+    color: #e9aa02;
+  text-decoration:underline;
+	 
+	
+		}
+
+
+/* -------------------------------------------------------form field styles ---------------------------------------- */
+
+
+
+.pl-holder::placeholder {
+  
+  background-image: url("images/social/email.png");
+background-position: 1% 11%;
+background-size: 22px 22px;
+background-repeat: no-repeat;
+//padding-bottom:60px;
+min-height:50px;
+   
+}
+
+.pl-holder2::placeholder {
+  font-style: italic;
+  font-size: 12px;
+//padding-left: 20px;
+ padding: 10px 0px  10px 30px ;
+}
+
+
+
+
+.type-in input[type=text] {
+  display:flex;
+  width: 100%;
+  height:39px;
+  //padding:0 5px;
+  //margin: 0 5px;
+  display: inline-block;
+  border:none;
+ //border: 1px solid #313131;
+  //background:#313131;
+  background:#111111;
+
+ color:grey;
+ //margin-top:8px;
+ outline: none;
+ //outline: 1px solid #e9aa02;
+ border-radius:150px;
+ font-style: italic;
+ //margin-right:4px;
+ 
+}
+
+
+
+
+.news input[type=submit] {
+  
+
+  
+  background:#e6e6e6;
+  //background:#212121;
+  //color:#212121;
+  color:#515151;
+  //padding: 8px 8px;
+  //margin: 0 5px;
+  border: none;
+   cursor: pointer;
+   transition: all .3s ease-in-out;
+   font-size:11px;
+   font-weight:700;
+   width:80px;
+     height:30px;
+	 margin-right:5px;
+	 //border: 1px solid #717171;
+	 text-align:center;
+	  border-radius:100px;
+	 
+}
+
+
+
+.news input[type=submit]:hover{
+  color: #212121;
+ background: #e9aa02;
+}
+
+
+.news-box
+{
+display:flex;
+align-items:center;	
+//border: 1px solid #313131;	
+border-radius:100px;
+background:#111111;
+padding-left:10px;
+overflow:hidden;
+	
+}
+
+
+.lbl
+
+{
+
+//color:#616160;
+//color:grey;	
+color:#d0cfcf;
+font-family:arial;
+font-size:13px;
+font-weight:600;
+//margin-left:5px;
+margin-top:20px;
+margin-bottom:8px;
+//text-decoration: underline #e9aa02 3px;
+//text-underline-offset: 7px;
+//font-style: italic;
+padding-left:15px;
+text-transform:capitalize;
+}
+
+
+.pre-footer
+{
+	
+color:grey;	
+//color:#adadad;	
+//color:#d0cfcf;
+font-family:arial;
+font-size:16px;	
+//padding-left:10px;	
+margin-top:25px;	
+}
+
+
+
+
+/* --------------------------------------------------------------------------------------  media query 1280 ---------------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------  media query 1280 ---------------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------  media query 1280 ---------------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------  media query 1280 ---------------------------------------------------------------------------------------------- *//* --------------------------------------------------------------------------------------  media query 1280 ---------------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------  media query 1280 ---------------------------------------------------------------------------------------------- */	
+
+
+
+
+
+
+@media screen and (max-width: 1280px) {
+
+
+
+
+
+
+
+
+
+
+.hero-container
+{
+
+min-height:500px;
+
+	
+}
+
+.hero-inner
+{
+
+margin-top:90px;
+
+//background:blue;
+
+}
+
+
+
+.hero-text-box
+{
+display:flex;
+flex-direction:column;
+}
+
+
+
+
+
+pre {
+
+ font-size:17px;
+line-height:22px;
+	
+}
+
+
+
+
+.banner-headings
+
+{
+
+color:white; 
+font-family:poppins,helvetica,arial;
+font-size:40px;
+color:white;
+font-weight:650;
+text-transform:capitalize;
+text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+line-height:42px;	
+
+-webkit-transition: 1s ease;
+         -moz-transition: 1s ease;
+               -o-transition: 1s ease;
+	
+}
+
+
+
+
+.headline-no-underline
+
+{
+color:#313131;
+font-size:34px; 
+font-weight:650;
+font-family:poppins,helvetica,arial;
+line-height:45px;
+
+text-transform:capitalize;
+
+-webkit-transition: 1s ease;
+         -moz-transition: 1s ease;
+               -o-transition: 1s ease;
+                     transition: 1s ease;	
+
+
+}	
+
+
+
+
+
+
+.test-drive-heading
+
+{
+
+font-size:39px;
+line-height:42px;		
+}
+
+
+.test-drive-container
+
+{
+
+min-height:450px;
+//margin-top:13px;
+
+}
+
+.wave-container
+
+{
+
+min-height:450px;
+
+}
+
+
+
+.wave-heading
+
+{
+
+font-size:39px;
+line-height:42px;
+
+}
+
+.icon2
+{
+
+font-weight:500; 
+font-size:20px; 
+
+}
+
+
+.headline 
+
+{
+font-size:20px; 
+text-decoration: underline #e9aa02 3px;
+text-underline-offset: 6px;
+line-height:35px;
+	
+}
+
+
+.first-line
+{
+font-size:16px; 
+font-weight:600;
+
+
+}
+
+
+
+
+.second-line
+{
+	
+font-size:18px;
+font-weight:500;	
+	
+}
+
+.third-line
+{
+
+font-size:12px;
+font-weight:500;
+
+	
+}
+
+.fourth-line
+
+{
+
+font-weight:bold;	
+font-size:18px; 	
+line-height:22px;	
+text-decoration: underline #e9aa02 3px;
+text-underline-offset: 4px;
+	
+}
+
+/* -----------------------------------------------------------button styles-------------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------    hero button styles    ------------------------------------------------------------------- */
+
+
+.btn-hero-main {
+ 
+  width:120px;
+   margin-top: 25px;
+ 
+}
+
+.btn-hero-main a{
+  
+  padding:16px 13px;
+     font-size: 10px;
+
+}
+
+
+/* buttons find out more */
+
+.btn-find-out {
+  
+   margin:auto;
+  text-align:center;
+  
+}
+
+.btn-find-out a{
+ 
+  padding:14px 11px;
+  margin-top:30px;
+  margin-bottom:10px;
+ font-size: 10px;
+  
+}
+
+ 
+
+
+/* buttons read more */
+
+.btn-read {
+  
+ 
+  //margin:auto;
+ width:100px;
+  text-align:center;
+  
+}
+
+.btn-read a{
+
+  padding:13px 11px;
+  margin-top:15px;
+  margin-bottom:10px;
+     font-size: 11px;
+  
+}
+
+
+
+/* -----------------------------------------------arrow icon---------------------------------------------- */
+
+.arrow-content {
+  border: solid #212121;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-left: 2px;
+  margin-bottom:0; 
+ 
+  
+  
+}
+
+.arrow-nav {
+  border: solid #5c5b5b;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-left: 6px;
+  margin-bottom:3px;
+  //color: #343434;
+}
+
+
+.arrow-hero {
+ border: solid #212121;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 2px;
+  margin-left: 4px;
+  margin-bottom:1px; 
+
+}
+
+
+
+
+/* -----------------------------------------------footer---------------------------------------------- */
+
+
+
+/* --------------footer hyper links ------------------- */
+
+.foot a:link
+{
+	
+color:#616160;
+line-height: 28px;	
+font-size:13px;		
+text-decoration:none;
+
+	
+	
+}
+
+.foot a:visited
+{
+	
+color:#616160;
+//text-decoration:none;
+
+	
+	
+}
+
+
+.foot a:hover {
+    color: #e9aa02;
+  text-decoration:underline;
+	 
+	
+		}
+
+
+
+
+
+.info-text
+{
+
+color:#616160; 
+font-size: 13px;
+line-height:24px;
+
+
+	
+	
+}	
+	
+.foot_heading2 
+
+{
+
+
+font-size:15px; 
+
+text-decoration: underline #e9aa02 3px;
+text-underline-offset: 7px;
+line-height:35px;
+text-transform:uppercase;
+	
+}	
+
+
+
+
+
+.social-image img
+
+{	
+max-width:25%;	
+		
+}
+
+.jeep-foot-logo img
+{
+	
+max-width:75%;	
+margin-right:-15px;	
+}
+ 
+
+
+
+
+
+ 
+  
+  }
+
+
+
+/* --------------------------------------------------------------------------------------  media query 768px ---------------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------  media query 768px ---------------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------  media query 768px ---------------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------  media query 768px ---------------------------------------------------------------------------------------------- *//* --------------------------------------------------------------------------------------  media query 1280 ---------------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------  media query 768px ---------------------------------------------------------------------------------------------- */	
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+
+.desktop-nav,.hero-container, .foot-container, .wave-container, .test-drive-container, .sliding-container, .Jeep-select-desk  {
+
+display:none;	
+	
+}
+
+.mobile-nav, .Jeep-select-mobi
+{
+
+display:initial;	
+	
+}
+
+
+
+
+
+.app-store img
+
+{
+max-width:32%;	
+margin-top:20px;
+cursor:pointer;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.head-container {
+
+display:flex;	
+justify-content:center;
+align-items: center;
+width:100%;
+
+background: rgba(14,14,14,0.96);
+color:white;
+box-shadow: 0px 0px 20px 6px #0e0e0e;
+position: fixed;
+
+
+border-bottom: 1px solid #3d3d3d;
+
+z-index:98;
+
+
+
+}
+
+
+
+.content-inner
+
+{
+
+display:flex;
+max-width:1366px;
+flex-direction:column;	
+justify-content:space-around;
+align-items: flex-start;
+//flex-wrap:wrap;
+padding:10px 20px;
+flex-wrap:wrap;	
+}
+
+.content-text
+{
+flex:1 1 50%;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items: flex-start;
+//overflow:hidden;
+//padding:0.5em;
+padding:10px 10px 10px 10px ;
+//order:0;
+margin-top:20px;
+}
+
+
+
+
+.jeep-card-container
+
+{
+	
+display:flex;
+justify-content:center;	
+margin-top:100px;	
+flex-direction:column;	
+}
+
+.jeep-card-inner
+
+{
+	
+display:flex;
+flex:0 1 1366px;
+//flex-wrap:wrap;
+justify-content:space-between;
+padding:0 20px;	
+flex-direction:column;	
+	
+}
+
+.jeep-card-head
+
+{
+
+width:100%;	
+text-align:center;
+margin-bottom:60px;	
+	
+}
+
+
+
+.jeep-social-cards
+
+{
+display:flex;
+flex:1 1 30%;
+//padding:4px;	
+flex-direction:column;
+background-color:white;	
+align-items:flex-start;
+text-align:center;
+transition: all .3s ease-in-out;
+cursor:pointer;
+	
+}
+
+
+.social-card-img img
+
+{
+//max-width:100%;	
+	
+}
+
+
+.social-card-img
+
+{
+display:flex;
+width:100%;
+overflow:hidden;	
+background-image: url("images/card1.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+min-height:300px;
+background-position:center;	
+justify-content:center;
+align-items:center;
+align-content:center;
+flex-direction:column;
+	
+	
+}
+
+.social-card-img2
+
+{
+display:flex;
+flex:1 1 30%;
+overflow:hidden;	
+background-image: url("images/card2.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+min-height:300px;
+background-position:center;	
+justify-content:center;
+align-items:center;
+align-content:center;
+flex-direction:column;
+	
+	
+}
+
+
+.social-card-img3
+
+{
+display:flex;
+flex:1 1 30%;
+overflow:hidden;	
+background-image: url("images/card3.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+min-height:300px;
+background-position:center;	
+justify-content:center;
+align-items:center;
+align-content:center;
+flex-direction:column;
+	
+}
+
+
+.jeep-colums
+{
+
+
+
+flex:1 1 auto;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items: center;
+align-content: center;
+overflow:hidden;
+padding:15px;
+text-align:center;
+margin-top:90px;
+margin-bottom:30px;
+-webkit-transition: 1s ease;
+         -moz-transition: 1s ease;
+               -o-transition: 1s ease;
+                     transition: 1s ease;	
+
+}
+
+.jeep-colums img
+
+{
+max-width:100%; 
+margin-top:36px;	
+
+-webkit-transition: 1s ease;
+         -moz-transition: 1s ease;
+               -o-transition: 1s ease;
+                     transition: 1s ease;	
+		
+}
+
+
+
+ 
+
+}
+
+
+
+
+@media screen and (max-width: 400px)
+{
+	
+	
+.jeep-colums
+{
+
+
+
+flex:1 1 auto;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items: center;
+align-content: center;
+overflow:hidden;
+padding:15px;
+text-align:center;
+margin-top:80px;
+margin-bottom:30px;
+-webkit-transition: 1s ease;
+         -moz-transition: 1s ease;
+               -o-transition: 1s ease;
+                     transition: 1s ease;	
+
+}	
+	
+	
+	
+.headline-no-underline
+
+{
+color:#313131;
+font-size:28px; 
+font-weight:650;
+font-family:poppins,helvetica,arial;
+line-height:40px;
+
+text-transform:capitalize;
+
+-webkit-transition: 1s ease;
+         -moz-transition: 1s ease;
+               -o-transition: 1s ease;
+                     transition: 1s ease;	
+
+
+}		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

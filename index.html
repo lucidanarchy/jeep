@@ -1,0 +1,1014 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@500&display=swap');
+</style>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet"  href="flex.css">
+<link rel="stylesheet"  href="hero.css">
+<link rel="stylesheet"  href="slide-content2.css">
+<link rel="stylesheet"  href="image-modal-box.css">
+<link rel="stylesheet"  href="mobi-side-nav.css">
+<link rel="stylesheet"  href="navigation-mega-drop.css">
+<link rel="stylesheet"  href="jeep-cards.css">
+<script src="scripts/wayne-header2.js"></script>
+<script src="scripts/my-drop-down.js"></script>
+
+
+</head>
+
+
+
+<body>
+
+
+
+
+<div class = "mobile-nav"  >
+
+<div id="mySidebar" class="sidebar mobi-scroll">
+
+ <div class = "closedbtn"> <a  href="javascript:void(0)"  onclick="closeNav()">×</a></div>
+  
+  <div class = "mobi-link">
+  
+<a href="#news">Home</a>
+<button type="button" class="collapsible">Jeep vehicles<p>+</p></button>
+<div class="content-links">
+<a href="#news">Jeep Rubicon</a> 
+<a href="#news">Jeep Cherokee</a>
+<a href="#news">Jeep Renegade</a>
+<a href="#news">Jeep Gladiator</a>
+<a href="#news">Grand Cherokee</a>
+<a href="#news">Jeep Wrangler</a>
+</div>
+
+<a href="#news">Jeep Life</a>
+
+<button type="button" class="collapsible">Consumer<p>+</p></button>
+<div class="content-links">
+<a href="#news">Jeep Adventure Days</a>
+<a href="#news">The Jeep wave</a>
+<a href="#news">Jeep Trail Rated</a>
+<a href="#news">Jeep Maintenance</a>
+<a href="#news">Jeep Safety</a>
+</div>
+
+
+<a href="#news">Test Drive</a>
+<a href="#news">Contact Us</a>
+  
+  </div>
+</div>
+
+<div id="main"   class = "head-container-mobi" >
+
+<div class = "logo-mobi"><img  src="images/logo/jeep_logo2.svg"  ></div><div class = "burger-icon"><button class="openbtn" onclick="openNav()">☰</button></div>
+
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var b;
+
+for (b = 0; b < coll.length; b++) {
+  coll[b].addEventListener("click", function() {
+    this.classList.toggle("active6");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+
+
+
+
+
+</div>
+
+
+
+<!------------------------------------------------------ desk-top navigation ------------------------------------------------------------>
+
+
+
+<div class = "desktop-nav">
+<header id = "head-container" class = "head-container"  >
+
+<div class = "head-box"  >
+
+<div class = "logo"><img  src="images/logo/jeep_logo2.svg"  ></div>
+
+
+<nav>
+
+<ul>
+  <li  class="stay grow-line"><a  class="stay" href="#home">Home</a></li>
+  
+  <div class="dropdown ">
+  <button onclick="myFunction()" class="dropbtn grow-btn">Vehicles <i class="arrow-nav down"></i></button>
+  <div id="myDropdown" class="dropdown-content ">
+ <div class = "drop-arrow"> <img  src="trig.svg"  > </div>
+	
+ 
+ 
+ <div class = "drop-contain drop-vehicle">
+ 
+
+ <a href="#news"><div class = "drop-cover ">
+  
+<img src="images/jeeps/jeep1.png" > <div> <h2> jeep Rubicon</h2><pre>Starting from <strong class = "price">R429 567 </strong></pre></div>
+ 
+  </div></a>
+
+<a href="#news"> <div class = "drop-cover cont-border">
+  
+<img src="images/jeeps/jeep7.png" > <div> <h2> jeep Compass</h2><pre>Starting from <strong class = "price">R429 567 </strong></pre></div>
+ 
+  </div> </a>
+  
+  
+  <a href="#news"><div class = "drop-cover cont-border">
+  
+<img src="images/jeeps/jeep3.png" > <div> <h2> jeep Renegade</h2><pre>Starting from <strong class = "price">R429 567 </strong></pre></div>
+ 
+  </div></a>
+  
+  
+ <a href="#news"> <div class = "drop-cover cont-border">
+  
+<img src="images/jeeps/jeep4.png" > <div> <h2> jeep Gladiator</h2><pre>Starting from <strong class = "price">R429 567 </strong></pre></div>
+ 
+  </div></a>
+
+<a href="#news"> <div class = "drop-cover cont-border">
+  
+<img src="images/jeeps/jeep5.png" ><div><h2> jeep cherokee</h2><pre>Starting from <strong class = "price">R429 567 </strong></pre></div>
+ 
+  </div> </a>
+  
+  
+  <a href="#news"><div class = "drop-cover cont-border">
+  
+<img src="images/jeeps/jeep6.png" > <div> <h2> jeep wrangler</h2><pre>Starting from <strong class = "price">R429 567 </strong></pre></div>
+ 
+  </div> </a>
+   
+ 
+ </div>
+    
+  </div>
+</div>
+   
+<li class = "grow-line"><a href="#news">Jeep Life</a></li>
+	   
+<div class="dropdown ">
+  <button onclick="myFunction2()" class="dropbtn grow-btn">Consumer <i class="arrow-nav down"></i></button>
+  <div id="myDropdown2" class="dropdown-content ">
+    
+	<div class = "drop-arrow2"> <img  src="trig.svg"  > </div>
+	
+ <div class = "drop-contain2 drop-consumer">
+ 
+ 
+ <a href="#news"><div class = "drop-cover2">
+  
+<img src="images/jeeps/adv-days.jpg" > <div> <h2> jeep trail rated</h2><pre>You will be automatically be 
+enrolled into the Jeep Wave®..</pre></div>
+ 
+</div></a>
+  
+
+<a href="#news"><div class = "drop-cover2 cont-border">
+  
+<img src="images/jeeps/wave.jpg" > <div> <h2> Jeep wave</h2><pre>You will be automatically be 
+enrolled into the Jeep Wave®..</pre></div>
+ 
+</div></a>
+  
+  
+  <a href="#news"><div class = "drop-cover2 cont-border">
+  
+<img src="images/jeeps/rated.jpg" > <div> <h2> jeep trail rated</h2><pre>You will be automatically be 
+enrolled into the Jeep Wave®..</pre></div>
+ 
+</div></a>
+  
+  
+ <a href="#news"><div class = "drop-cover2 cont-border">
+  
+<img src="images/jeeps/maintain.jpg" > <div> <h2> Maintenance</h2><pre>You will be automatically be 
+enrolled into the Jeep Wave®..</pre></div>
+ 
+</div></a>
+
+<a href="#news"><div class = "drop-cover2 cont-border">
+  
+<img src="images/jeeps/safety.jpg" > <div> <h2> Jeep safety</h2><pre>You will be automatically be 
+enrolled into the Jeep Wave®..</pre></div>
+ 
+</div></a>
+  
+    
+ 
+ </div>
+	 
+	  
+	  
+  </div>
+</div>
+
+	  <li class = "grow-line"><a href="#news">Test Drive</a></li>
+	   <li class = "grow-line"><a href="#news">Contact Us</a></li>
+	  
+</ul>
+
+</div>
+
+</nav>
+
+
+</header>
+</div>
+
+
+
+
+<!------------------------------------------------------ hero section ------------------------------------------------------------>
+
+
+<div class="sliding-container">
+		
+		
+	<div class="wayneslide fadeer  ">
+	
+	<div class = "hero-holder"><div class="txt-box-top-main">
+				
+
+ 
+<div class = "hero-headline-container"><pre><span class = "hero-main-text" >Jeep 2021</span>
+<span class = "text_highlight">Adventure Days</span></pre><img src = "images/logo/adv-round3.png" ></div>
+
+
+
+<div><pre ><span  class = "sub-text " ><span class = "sign-up">SIGN UP!!</span> And You will be enrolled into the Jeep 2021  ultimate Adventure club </span></pre></div>
+
+ 
+ 
+
+<div class = "btn-hero-main" >
+
+<a  href="#home"><span>Find Out More</span><span class = "arrow-hero right"></span>  </a>
+
+</div>
+</div>
+</div>
+	
+<span class = "hero-img"><img src="images/hero/hero19.jpg" ></span>
+</div>
+		
+		
+<!------------------------------------------------------ hero section slide 2 ------------------------------------------------------------>		
+		
+		
+		
+	<div class="wayneslide fadeer hero-img">
+	<div class = "hero-holder"><div class="txt-box-left">
+				
+<pre class = "banner-headings"  >the Wave,
+peace of mind</span>
+</pre>
+<pre style = "color:white;  ">
+
+You will be automatically enrolled into the Jeep Wave® program with the purchase or lease of any 2021 Jeep®. This premium</pre>
+
+<div class = "btn-hero-main" >
+
+<a  href="#home"><span>Find Out More</span><span class = "arrow-hero right" style = " margin-bottom:0; border-color:#212121;"></span>  </a>
+
+</div>	
+				
+
+				
+</div>
+</div>
+<img src="images/hero/hero20.jpg">
+</div>
+		
+		
+		
+<!------------------------------------------------------ hero section slide 3 ------------------------------------------------------------>		
+		
+		
+		
+		<div class="wayneslide fadeer hero-img">
+			<div class = "hero-holder"><div class = "txt-box-right">
+			<pre class = "banner-headings" >Test drive,
+the best jeeps!</span>
+</pre>
+<pre style = "color:white;">
+
+You will be automatically enrolled into the Jeep Wave® program with the purchase or lease of any 2021 Jeep®.This premium</pre>
+
+<div class = "btn-hero-main" >
+
+<a  href="#home"><span>Find Out More</span><span class = "arrow-hero right" style = " margin-bottom:0; border-color:#212121;"></span>  </a>
+
+</div>
+			
+			</div>
+			</div>
+			<img src="images/hero/hero21.jpg">
+		</div>
+		
+		
+		<div class="dotsbox" style="text-align:center">
+			<span class="dotti" onclick="thistSlide(1)"></span>
+			<span class="dotti" onclick="thistSlide(2)"></span>
+			<span class="dotti" onclick="thistSlide(3)"></span>
+			
+			
+		</div>
+		
+		
+	</div>
+	
+<script src="scripts/jsfile.js"></script>
+
+
+
+
+
+<!------------------------------------------------------ jeep selection section ------------------------------------------------------------>
+
+<div class = "Jeep-select-desk">
+<section class = "jeep-container ">
+
+
+<div class = "mySlides fade">
+<div class = "jeep-inner ">
+<div class = "jeep-colums ">
+<div><span class = " icon2">01 - </span>   
+ <span class = " headline">Jeep Rubicon</span></div>
+<div><img src="images/jeeps/jeep_white1_new.jpg"></div>
+<div><pre class = " pre-style"><span class = "first-line underline-grey">&#39;The classic icon&#39;</span>
+<span class = "second-line">Starting</span> <span class = "third-line">from</span> <span class = " fourth-line">R429 567</span></pre></div>
+ <div class = "btn-find-out" >
+<a  href="#home"  ><span>Find Out More</span><span class = "arrow-content right"></span></a>
+</div>	
+</div>
+
+
+<div class = "jeep-colums ">
+<div><span class = " icon2">02 - </span>   
+ <span class = " headline">Jeep compass</span></div>
+<div><img src="images/jeeps/jeep_white2.jpg"></div>
+<div><pre class = " pre-style"><span class = "first-line">&#39;The True North&#39;</span>
+<span class = "second-line">Starting</span> <span class = "third-line">from</span> <span class = " fourth-line">R429 567</span></pre></div>
+ <div class = "btn-find-out" >
+<a  href="#home"  ><span>Find Out More</span><span class = "arrow-content right"></span></a>
+</div>	
+</div>
+
+<div class = "jeep-colums ">
+<div><span class = " icon2">03 - </span>   
+ <span class = " headline">Jeep Renegade</span></div>
+<div><img src="images/jeeps/jeep_white3_new.jpg"></div>
+<div><pre class = " pre-style"><span class = "first-line">&#39;Ultra Compact&#39;</span>
+<span class = "second-line">Starting</span> <span class = "third-line">from</span> <span class = " fourth-line">R429 567</span></pre></div>
+ <div class = "btn-find-out" >
+<a  href="#home"  ><span>Find Out More</span><span class = "arrow-content right"></span></a>
+</div>	
+</div>
+
+</div>
+
+
+</div>
+
+<!------------------------------------------------------ jeep selection section next slide ------------------------------------------------------------>
+
+<div class = "mySlides fade">
+<div class = "jeep-inner ">
+<div class = "jeep-colums ">
+<div><span class = " icon2">04 - </span>   
+ <span class = " headline">Jeep Rubicon</span></div>
+<div><img src="images/jeeps/jeep_white4.jpg"></div>
+<div><pre class = " pre-style"><span class = "first-line">&#39;The Work Horse&#39;</span>
+<span class = "second-line">Starting</span> <span class = "third-line">from</span> <span class = " fourth-line">R429 567</span></pre></div>
+ <div class = "btn-find-out" >
+<a  href="#home"  ><span>Find Out More</span><span class = "arrow-content right"></span></a>
+</div>	
+</div>
+
+
+<div class = "jeep-colums ">
+<div><span class = " icon2">05 - </span>   
+ <span class = " headline">Jeep Rubicon</span></div>
+<div><img src="images/jeeps/jeep_white5.jpg"></div>
+<div><pre class = " pre-style"><span class = "first-line">&#39;Classic Elegance&#39;</span>
+<span class = "second-line">Starting</span> <span class = "third-line">from</span> <span class = " fourth-line">R429 567</span></pre></div>
+ <div class = "btn-find-out" >
+<a  href="#home"  ><span>Find Out More</span><span class = "arrow-content right"></span></a>
+</div>	
+</div>
+
+<div class = "jeep-colums ">
+<div><span class = " icon2">06 - </span>   
+ <span class = " headline">Jeep Rubicon</span></div>
+<div><img src="images/jeeps/jeep_white6.jpg"></div>
+<div><pre class = " pre-style"><span class = "first-line">&#39;The Tough Guy&#39;</span>
+<span class = "second-line">Starting</span> <span class = "third-line">from</span> <span class = " fourth-line">R429 567</span></pre></div>
+ <div class = "btn-find-out" >
+<a  href="#home"  ><span>Find Out More</span><span class = "arrow-content right"></span></a>
+</div>	
+</div>
+
+</div>
+
+
+</div>
+
+
+</section>
+
+<div class = "jeep-container-controller" >
+
+<div class = "controller-inner">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+ </div> 
+
+<script src="scripts/slide-content.js"></script>
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+<div class = "Jeep-select-mobi">
+
+
+
+
+<section class = "jeep-container ">
+
+
+<div class = "mySlides3 fade3">
+
+<div class = "jeep-colums ">
+<div><span class = " icon2">01 - </span>   
+ <span class = " headline">Jeep Rubicon</span></div>
+<div><img src="images/jeeps/jeep_white1_new.jpg"></div>
+<div><pre class = " pre-style"><span class = "first-line underline-grey">&#39;The classic icon&#39;</span>
+<span class = "second-line">Starting</span> <span class = "third-line">from</span> <span class = " fourth-line">R429 567</span></pre></div>
+ <div class = "btn-find-out" >
+<a  href="#home"  ><span>Find Out More</span><span class = "arrow-content right"></span></a>
+</div>	
+</div>
+
+</div>
+
+<div class = "mySlides3 fade3">
+
+<div class = "jeep-colums ">
+<div><span class = " icon2">02 - </span>   
+ <span class = " headline">Jeep compass</span></div>
+<div><img src="images/jeeps/jeep_white2.jpg"></div>
+<div><pre class = " pre-style"><span class = "first-line">&#39;The True North&#39;</span>
+<span class = "second-line">Starting</span> <span class = "third-line">from</span> <span class = " fourth-line">R429 567</span></pre></div>
+ <div class = "btn-find-out" >
+<a  href="#home"  ><span>Find Out More</span><span class = "arrow-content right"></span></a>
+</div>	
+</div>
+
+</div>
+
+
+<div class = "mySlides3 fade3">
+
+<div class = "jeep-colums ">
+<div><span class = " icon2">03 - </span>   
+ <span class = " headline">Jeep Renegade</span></div>
+<div><img src="images/jeeps/jeep_white3_new.jpg"></div>
+<div><pre class = " pre-style"><span class = "first-line">&#39;Ultra Compact&#39;</span>
+<span class = "second-line">Starting</span> <span class = "third-line">from</span> <span class = " fourth-line">R429 567</span></pre></div>
+ <div class = "btn-find-out" >
+<a  href="#home"  ><span>Find Out More</span><span class = "arrow-content right"></span></a>
+</div>	
+</div>
+
+</div>
+
+<!------------------------------------------------------ jeep selection section next slide ------------------------------------------------------------>
+
+<div class = "mySlides3 fade3">
+
+<div class = "jeep-colums ">
+<div><span class = " icon2">04 - </span>   
+ <span class = " headline">Jeep Rubicon</span></div>
+<div><img src="images/jeeps/jeep_white4.jpg"></div>
+<div><pre class = " pre-style"><span class = "first-line">&#39;The Work Horse&#39;</span>
+<span class = "second-line">Starting</span> <span class = "third-line">from</span> <span class = " fourth-line">R429 567</span></pre></div>
+ <div class = "btn-find-out" >
+<a  href="#home"  ><span>Find Out More</span><span class = "arrow-content right"></span></a>
+</div>	
+</div>
+
+</div>
+
+
+<div class = "mySlides3 fade3">
+
+<div class = "jeep-colums ">
+<div><span class = " icon2">05 - </span>   
+ <span class = " headline">Jeep Rubicon</span></div>
+<div><img src="images/jeeps/jeep_white5.jpg"></div>
+<div><pre class = " pre-style"><span class = "first-line">&#39;Classic Elegance&#39;</span>
+<span class = "second-line">Starting</span> <span class = "third-line">from</span> <span class = " fourth-line">R429 567</span></pre></div>
+ <div class = "btn-find-out" >
+<a  href="#home"  ><span>Find Out More</span><span class = "arrow-content right"></span></a>
+</div>	
+</div>
+
+</div>
+
+<div class = "mySlides3 fade3">
+
+<div class = "jeep-colums ">
+<div><span class = " icon2">06 - </span>   
+ <span class = " headline">Jeep Rubicon</span></div>
+<div><img src="images/jeeps/jeep_white6.jpg"></div>
+<div><pre class = " pre-style"><span class = "first-line">&#39;The Tough Guy&#39;</span>
+<span class = "second-line">Starting</span> <span class = "third-line">from</span> <span class = " fourth-line">R429 567</span></pre></div>
+ <div class = "btn-find-out" >
+<a  href="#home"  ><span>Find Out More</span><span class = "arrow-content right"></span></a>
+</div>	
+</div>
+
+</div>
+
+
+
+
+
+</section>
+
+<div class = "jeep-container-mobi" >
+
+<div class = "controller-mobi">
+  <span class="dot8" onclick="currentSlidep (1)"></span> 
+  <span class="dot8" onclick="currentSlidep (2)"></span>
+ <span class="dot8" onclick="currentSlidep (3)"></span> 
+  <span class="dot8" onclick="currentSlidep (4)"></span>
+ <span class="dot8" onclick="currentSlidep (5)"></span> 
+  <span class="dot8" onclick="currentSlidep (6)"></span>  
+
+ </div> 
+<script src="scripts/slide-content3.js"></script>
+
+
+
+</div>
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<!------------------------------------------------- ----------jeep life banner section--------- ---------------------------------------------------------------------------------->
+
+
+<div class = "test-drive-container">
+
+<div class = "test-drive-inner">
+
+<div class = "test-drive-textbox">
+<pre class = "banner-headings"   >jeep life,
+live your best
+</pre>
+<pre style = "color:white ">
+
+You will be automatically enrolled into the Jeep Wave® program with the purchase or lease of any 2021 Jeep®.This premium customer care program is valid for 
+</pre>
+
+<div class = "btn-hero-main" >
+
+<a  href="#home"><span>Find Out More</span><span class = "arrow-hero right" style = " margin-bottom:0; border-color:#212121;"></span>  </a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+<!------------------------------------------------- ----------content selection section--------- ---------------------------------------------------------------------------------->
+
+<div class = "content-selection-container">
+
+<div class = "mySlides2 fade2">
+<div class = "content-inner">
+
+
+<div class = "content-images">
+ 
+<img src = "images/advent32.jpg" style = "width:100%"> 
+
+
+
+
+</div>
+<div class = "content-text">
+<pre class = "headline-no-underline">jeeps Hassle
+Free <span class = "underline">Maintenance</span></pre>
+<pre>
+
+You will be automatically enrolled into the Jeep Wave program with the purchase or lease of any 2021 Jeep and this premium customer care program is valid for 36 months from...
+ </pre>
+ <div class = "btn-read">
+<a  href="#home"  ><span>Read More</span></a>
+</div>
+ 
+</div>
+</div>
+</div>
+
+<!------------------------------------------------- ----------next slide--------- --------------------------------------------->
+
+<div class = "mySlides2 fade2">
+<div class = "content-inner">
+
+
+<div class = "content-images"><img src = "images/advent34.jpg" style = "width:100%"></div>
+<div class = "content-text">
+<pre class = "headline-no-underline">Trail Rated,
+is not <span class = "underline">Just A Badge</span></pre>
+<pre>
+
+You will be automatically enrolled into the Jeep Wave program with the purchase or lease of any 2021 Jeep and this premium customer care program is valid for 36 months from...
+ </pre>
+ <div class = "btn-read">
+<a  href="#home"  ><span>Read More</span></a>
+</div>
+ 
+</div>
+</div>
+</div>
+
+
+
+
+
+
+<!------------------------------------------------- ----------next slide--------- --------------------------------------------->
+
+<div class = "mySlides2 fade2">
+<div class = "content-inner">
+
+
+<div class = "content-images"><img src = "images/advent21.jpg" style = "width:100%"></div>
+<div class = "content-text">
+<pre class = "headline-no-underline">Jeep safety,
+our promise<span class = "underline"> to you</span></pre>
+<pre>
+
+You will be automatically enrolled into the Jeep Wave program with the purchase or lease of any 2021 Jeep and this premium customer care program is valid for 36 months from...
+ </pre>
+ <div class = "btn-read">
+<a  href="#home"  ><span>Read More</span></a>
+</div>
+ 
+</div>
+</div>
+</div>
+
+<div class = "content-container-controller" >
+
+
+  <span class="dot2" onclick="currentSlidem(1)"></span> 
+  <span class="dot2" onclick="currentSlidem(2)"></span> 
+  <span class="dot2" onclick="currentSlidem(3)"></span> 
+ 
+  
+</div>
+
+
+<script src="scripts/slide-content2.js"></script>
+
+
+</div>
+
+
+
+<!-- ----------------------------------------jeep wave banner ------------------------------->
+
+
+
+
+
+<div class = "wave-container">
+
+<div class = "wave-inner">
+
+<div class = "wave-textbox">
+<pre class = "banner-headings"  >jeep 24/7,
+support center
+</pre>
+<pre style = "color:white; line-height:26px; ">
+
+You will be automatically enrolled into the Jeep Wave® program with the purchase or lease of any 2021 Jeep®. This premium customer care program is valid for 
+</pre>
+
+<div class = "btn-hero-main" >
+
+<a  href="#home"><span>Find Out More</span><span class = "arrow-hero right" style = " margin-bottom:0; border-color:#212121;"></span>  </a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- ---------------------------------------------------------------------------------------------- --------------jeep phone app-----------------------------------------------  -->
+
+
+
+<div class = "content-selection-container">
+
+
+<div class = "content-inner">
+
+
+<div class = "content-images">
+ 
+<img src = "images/jeep_app.jpg" style = "width:100%"> 
+
+
+
+
+</div>
+<div class = "content-text">
+<pre class = "headline-no-underline">download,
+the smart <span class = "underline">phone app</span></pre>
+<pre>
+
+You will be automatically enrolled into the Jeep Wave program with the purchase or lease of any 2021 Jeep and this premium customer care program is valid for 36 months from...
+ </pre>
+ 
+ <div class = "app-store"> <img src = "images/google-play.png">  <img src = "images/apple-play.png"   style = "margin-left:4px" >   </div>
+    
+</div>
+</div>
+</div>
+
+<!------------------------------------------------- ----------jeep cards--------- --------------------------------------------->
+
+
+
+<div class = "jeep-card-container">
+<div class = "jeep-card-head headline-no-underline2  "> JOIN THE JEEP BRAND COMMUNITY on <span class = "underline-small1">youtube instagram and facebook</span></div>
+
+<div class = "jeep-card-inner ">
+
+
+<div class = "jeep-social-cards ">
+<div class = "social-card-img">
+<div class = "overlay "><div class = "pop-up btn-visit-us" ><img src = "images/youtube-big4.png"> 
+<pre>Youtube</pre><a href = "#"><span>visit us</span></a></div>
+</div>
+</div>
+<div class = "card-btn card-s"><span class = "card-s2"><pre>off road or on consistency is guranteed</pre></span><pre>Connect with us on <span class = "underline-smaller">youtube</span></pre></div>
+</div>
+
+
+<div class = "jeep-social-cards ">
+<div class = "social-card-img2">
+<div class = "overlay "><div class = "pop-up btn-visit-us" ><img src = "images/fb-big.png"> 
+<pre>Facebook</pre><a href = "#"><span>visit us</span></a></div>
+</div>
+</div>
+<div class = "card-btn card-s"><span class = "card-s2"><pre>The most capable jeeps of this generation</pre></span><pre>Connect with us on <span class = "underline-smaller">facebook</span></pre></div>
+</div>
+
+
+<div class = "jeep-social-cards ">
+<div class = "social-card-img3">
+<div class = "overlay "><div class = "pop-up btn-visit-us" ><img src = "images/insta-big.png"> 
+<pre>Instagram</pre><a href = "#"><span>visit us</span></a></div>
+</div>
+</div>
+<div class = "card-btn card-s"><span class = "card-s2"><pre>The contempory jeeps specialy designed</pre></span><pre>Connect with us on <span class = "underline-smaller">instagram</span></pre></div>
+</div>
+
+
+</div>
+
+</div>
+
+
+
+<!-- ----------------------------------------jeep fan wall ------------------------------->
+
+
+
+<div class = "fan-wall-container change  "  style = "text-align:center;" >
+<div  style = "margin-bottom:45px;"><pre class = "headline-no-underline" >Jeep Adventure days <span class = "underline">member gallery</span></pre></div>
+
+<div class = "fan-wall-inner fit" > 
+
+ <div class = "wall_box_smallest"> <img id = "img1"  src = "fan wall/jeep4.jpg"  ></div> 
+<div class = "wall_box_smallest"> <img id = "img2"  src = "fan wall/jeep5.jpg"  ></div> 
+<div class = "wall_box_smallest"> <img id = "img3"  src = "fan wall/jp7.jpg"  ></div> 
+<div class = "wall_box_smallest"> <img id = "img4"  src = "fan wall/jeep7.jpg"  ></div>
+<div class = "wall_box_smallest"> <img id = "img5"  src = "fan wall/jeep8.jpg"  ></div> 
+
+<div class = "wall_box_smaller"> <img id = "img6"  src = "fan wall/jp4.jpg"  ></div>  
+
+<div class = "wall_box_smaller"> <img id = "img7"  src = "fan wall/jeep1.jpg"  ></div>  
+  
+<div class = "wall_box_smaller"> <img id = "img8"  src = "fan wall/jeep2.jpg"  ></div> 
+
+<div class = "wall_box_smaller"> <img id = "img9"  src = "fan wall/jeep3.jpg"  ></div> 
+
+ 
+  <div class = "wall_box_smallest"> <img id = "img14"  src = "fan wall/jeep4.jpg"  ></div> 
+<div class = "wall_box_smallest"> <img id = "img15"  src = "fan wall/jeep5.jpg"  ></div> 
+<div class = "wall_box_smallest"> <img id = "img16"  src = "fan wall/jp7.jpg"  ></div> 
+<div class = "wall_box_smallest"> <img id = "img17"  src = "fan wall/jeep7.jpg"  ></div>
+<div class = "wall_box_smallest"> <img id = "img18"  src = "fan wall/jeep8.jpg"  ></div>
+ 
+ 
+ 
+
+<div class = "wall_box_smaller"> <img id = "img10"  src = "fan wall/jeep9.jpg"  ></div>  
+
+<div class = "wall_box_smaller"> <img id = "img11"  src = "fan wall/jeep10.jpg"  ></div>  
+  
+<div class = "wall_box_smaller"> <img id = "img12"  src = "fan wall/jeep11.jpg"  ></div> 
+
+<div class = "wall_box_smaller"> <img id = "img13"  src = "fan wall/jeep12.jpg"  ></div> 
+
+
+
+
+
+ 
+<!-- -------------------------------------------------------------------fan wall modal box------------------------------------------------------------------------  --> 
+ 
+ 
+ <div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+    
+</div>
+<script src="img_modal.js"></script>
+
+</div>
+
+</div>
+
+
+<!-- ------------------------------------------------footer banner-----------------------------------------------  -->
+
+
+<div class = "footer-banner">
+<div class = "spacer-bar"></div>
+ 
+
+<div class = "footer-text">find your true north with capability and style</div>
+
+</div>
+
+
+<!-- ------------------------------------------------footer-----------------------------------------------  -->
+
+<footer class = "foot-container">
+<div class = "foot-inner">
+
+<div class = "foot-boxes">
+
+<pre class = "info-text"><span class = "foot_heading2 ">Jeep South Africa</span>
+
+<strong >City:</strong> Cape town
+<strong >Address:</strong> 22 Harrington Street
+<strong >Postal Code:</strong> 8001
+<strong >Phone Number:</strong> (021) 897-0987
+<strong >fax:</strong> (021) 897-0867
+</pre>
+</div>
+
+<div class = "foot-boxes foot">
+
+<pre  class = "info-text"><span class = "foot_heading2" >jeep Vehicles</span>
+
+<a href = "#" >The Jeep Rubicon</a>
+<a href = "#" >The Jeep Cherokee</a>
+<a href = "#" >The Jeep Renegade</a>
+<a href = "#" >The Jeep Gladiator</a>
+<a href = "#" >Jeep Grand Cherokee</a>
+<a href = "#" >The Jeep Wrangler</a>
+</pre>
+
+
+</div>
+
+<div class = "foot-boxes foot">
+
+<pre class = "info-text"><span class = "foot_heading2">customer portal</span>
+
+<a href = "#" >Home</a>
+<a href = "#" >Jeep Adventure Days</a>
+<a href = "#" >Jeep Wave</a>
+<a href = "#" >Jeep Trail Rated</a>
+<a href = "#" >Jeep Maintenance</a>
+<a href = "#" >Jeep Safety</a>
+<a href = "#" >Jeep Life</a>
+<a href = "#" >Test Drive</a>
+</pre>   
+
+
+</div>
+
+
+
+<div class = "foot-boxes ">
+<div class = "foot-logo-box"><div class = "jeep-foot-logo"><img  src= "images/logo/jeep-logo.png" ></div>
+<div class = "foot-social hover-image social-image"><img  src="images/social/fb-logo-small.png" >
+<img  src="images/social/gram-logo-small.png" style = "margin-left:8px;" >
+<img  src="images/social/ytube-logo-small.png" style = "margin-left:8px;" ></div>
+</div>
+
+<label class = "lbl">Newsletter Sign Up...</label>
+<div class = "input-box-border">
+<div class = "news type-in news-box " >
+<input class = "pl-holder pl-holder2" type="text" placeholder="email address..."><input type="submit" value="Submit">
+</div>
+</div>
+<pre class = "pre-footer">
+<strong style = "color:#d0cfcf;font-size:18px;">Subscribe Today!</strong>  to be part
+of our weekly newsletter...
+</pre>
+
+
+</div>
+
+
+</div>
+</footer>
+
+<div class = "final-footer" >Jeep® 2021 All Rights Reserved - Jeep® Adventure Days 2021 - Terms & Conditions - Privacy Policy     <div class="doits"></div></div>
+
+</body>
+</html>
+
+
+
+

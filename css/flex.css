@@ -1,0 +1,771 @@
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+body, html {
+    height: 100%;
+}
+
+
+pre {
+	
+white-space: pre-wrap;
+//font-family:'helvetica', arial;
+ font-family:arial;
+ font-size:21px;
+line-height:27px;
+
+	
+	
+}
+
+
+
+p {
+	
+//font-family:'helvetica', arial;
+ font-size:21px;	
+font-family:arial;	
+}
+
+img 
+{
+max-width:100%;	
+	
+}
+
+
+/* -----------------------------------------------------------button styles-------------------------------------------------------------------- */
+
+
+/* ------------------------------- hero button styles--------------------------- */
+
+
+.btn-hero-main {
+  
+ 
+ 
+  margin-top: 45px;
+    box-shadow:inset 0px 0px 0px 2px white;
+  width:157px;
+  //height:50px;
+}
+
+.btn-hero-main a{
+  
+  display: block;
+  padding:22px 22px;
+	font-family:arial;
+     font-size: 12px;
+	 font-weight:bold;
+	text-transform:uppercase; 
+  text-decoration: none;
+  color: #212121;
+    position: relative;
+   background:rgba(255,255,255,0.5);
+    
+}
+
+ .btn-hero-main a span{
+  position: relative;
+  z-index: 2;
+}
+
+.btn-hero-main a:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height:100%;
+  background: #e9aa02;
+    transition: all .30s;
+  box-shadow:inset 0px 0px 0px 2px #ecac03;
+}
+
+.btn-hero-main a:hover{
+  color: #212121;
+  
+
+ 
+}
+
+.btn-hero-main a:hover:after{
+  width: 100%;
+  
+
+}
+
+
+
+/* buttons find out more */
+
+.btn-find-out {
+  
+ 
+  margin:auto;
+ width:150px;
+  text-align:center;
+  
+}
+
+.btn-find-out a{
+  display: block;
+  padding:17px 13px;
+  margin-top:35px;
+  margin-bottom:10px;
+	font-family:arial;
+     font-size: 12px;
+	 font-weight:bold;
+text-decoration: none;
+ text-transform:uppercase;
+  color: #212121;
+    position: relative;
+   box-shadow:inset 0px 0px 0px 1.3px #636363;
+  
+}
+
+ .btn-find-out a span{
+  position: relative;
+  z-index: 9;
+}
+
+.btn-find-out a:after{
+  position: absolute;
+  content: "";
+  //right: 0;
+ bottom:0;
+ left:0;
+  width: 0;
+  height:100%;
+ background: #e9aa02;
+  //border: 1px solid #e9aa02;
+  transition: all .40s;
+  //-webkit-transition: all .5s ease-in-out;
+  
+}
+
+.btn-find-out a:hover{
+  color: #212121;
+ 
+}
+
+.btn-find-out a:hover:after{
+  width: 100%;
+ 
+}
+
+
+/* buttons read more */
+
+.btn-read {
+  
+ 
+  //margin:auto;
+ width:110px;
+  text-align:center;
+  
+}
+
+.btn-read a{
+  display: block;
+  padding:15px 13px;
+  margin-top:15px;
+  margin-bottom:10px;
+	font-family:arial;
+     font-size: 11px;
+	 font-weight:bold;
+text-decoration: none;
+ text-transform:uppercase;
+  color: #212121;
+    position: relative;
+   box-shadow:inset 0px 0px 0px 1.3px #636363;
+  
+}
+
+ .btn-read a span{
+  position: relative;
+  z-index: 9;
+}
+
+.btn-read a:after{
+  position: absolute;
+  content: "";
+  //right: 0;
+ bottom:0;
+ left:0;
+  width: 0;
+  height:100%;
+ background: #e9aa02;
+  //border: 1px solid #e9aa02;
+  transition: all .40s;
+  //-webkit-transition: all .5s ease-in-out;
+  
+}
+
+.btn-read a:hover{
+  color: #212121;
+ 
+}
+
+.btn-read a:hover:after{
+  width: 100%;
+ 
+}
+
+
+
+
+
+
+/* -----------------------------------------------------------text styles-------------------------------------------------------------------- */
+
+.icon2
+{
+
+font-weight:100; 
+color:#212121;
+font-size:26px; 
+//background:#212121; 
+
+font-family:arial;
+	
+}
+
+
+.headline 
+
+{
+
+font-family:'helvetica', arial;	
+color:#212121;
+font-size:26px; 
+font-weight:bold;
+text-decoration: underline #e9aa02 8px;
+line-height:50px;
+text-transform:uppercase;
+text-underline-offset: 6px;
+
+
+	
+}
+
+
+.headline-big
+
+{
+
+color:#212121;
+font-size:32px; 
+font-weight:700;
+text-decoration: underline #e9aa02 8px;
+font-family: arial;
+line-height:58px;
+text-transform:uppercase;
+text-underline-offset: 9px;
+
+
+}	
+
+
+
+.text_highlight
+{
+
+font-size:36px;
+//letter-spacing:1px;
+color:white;
+
+background:rgba(14,14,14,0.8);  
+
+font-family:arial; 
+padding-left:12px;
+padding-right:12px;
+padding-top:4px;
+padding-bottom:3px;
+font-weight:750;
+
+text-transform:uppercase;
+line-height:85px;
+
+	
+	
+}
+
+
+
+
+/* -----------------------------------------------------------header section-------------------------------------------------------------------- */
+
+
+
+.head-cover
+{
+display:flex;	
+justify-content:center;
+align-items: center;	
+}
+
+
+
+#head-container {
+
+
+width:100%;
+//min-height:90px;
+
+background: #0e0e0e;
+color:white;
+box-shadow: 0px 0px 20px 6px #0e0e0e;
+position: fixed;
+top: 0;
+transition: top 0.5s;
+border-bottom: 2px solid #313131;
+z-index:98;
+
+padding:0.7em;
+
+
+}
+
+#head-box {
+flex-basis:1366px;
+display:flex;
+padding:0.5em;
+justify-content:space-between;
+align-items: center;
+
+}
+
+
+.logo
+{
+flex-basis:10%;
+
+}
+
+
+/* -----------------------------------------------------------navigation-------------------------------------------------------------------- */
+
+
+.nav-contain
+
+{
+display:flex;	
+justify-content:flex-end;	
+flex-basis:90%;	
+	
+}
+
+ul {
+  list-style-type: none;
+ z-index:99;
+  padding: 0;
+ 
+
+}
+
+ li {
+display:inline-block;
+}
+
+ li a, .dropbtn {
+  display: inline-block;
+  color: #adadad;
+	text-decoration: none;
+	    font-weight:bold;
+	padding:13px 20px ;
+	
+		font-family:arial;
+     font-size: 13px;
+	
+	 text-transform: uppercase;
+	 margin-left: 10px;
+
+	 transition:.2s ease;
+}
+
+ li a:hover, .dropdown:hover .dropbtn {
+ color: #212121;
+ //color: white;
+   background: #e9aa02;
+   transition:.2s ease;
+}
+
+ li.dropdown {
+  display: inline-block;
+  transition: all 0.5s;
+}
+
+.dropdown-content {
+  display: none;
+   margin-left: 10px;
+    position: absolute;
+  background-color: #e9aa02;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+   font-family:arial;
+     font-size: 13px;
+transition: all 0.5s;
+	 
+}
+
+.dropdown-content a {
+  color: black;
+border-top: 1px solid #a37702;
+  text-decoration: none;
+  display: block;
+  text-align:left;
+  margin:0;
+  
+  
+  
+}
+
+.dropdown-content a:hover {
+	
+	
+	background-color: #a37702;
+	color:white;
+	
+	}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+ li a.stay  {
+  color: #212121;
+    background: #e9aa02;
+}
+
+
+
+
+/* -------------------------------------------------------------------hero section-----------------------------------------*/
+
+
+
+.hero-container
+{
+display:flex;
+background-image: url("images/hero/hero3.jpg");
+background-size: cover ;
+background-repeat: no-repeat;
+background-attachment: fixed;
+min-height:700px;
+background-position:center;	
+justify-content:center;
+align-items: center;
+overflow:hidden;
+	
+}
+
+.hero-inner
+{
+display:flex;
+flex-basis:1366px;
+justify-content:flex-end;
+align-content: center;
+margin-top:55px;
+padding:0.5em;
+flex-wrap:wrap;
+
+
+}
+
+
+.hero-text-box
+{
+display:flex;
+justify-content:flex-end;
+flex-basis:100%;
+align-items: flex-start;
+	
+}
+
+
+
+
+.hero-headline
+{
+display:flex;
+justify-content:flex-end;
+align-items: flex-start;		
+flex-basis:100%;
+line-height:57px;
+
+
+}
+
+.hero-headline img
+
+{
+max-width:100%;
+margin-right:20px;
+
+	
+}
+
+
+.hero-text
+{
+	
+flex-basis:44%;		
+
+}
+
+.sub-text
+
+{
+text-align:right;
+font-size:25px; 
+color:white;  
+line-height:28px;    
+margin-top:33px;
+font-family: arial;
+font-weight:400;
+	
+}
+
+
+
+
+
+/* -------------------------------------------------------------------jeep selection section-----------------------------------------*/
+
+.jeep-container
+{
+
+display:flex;	
+justify-content:center;
+align-items: center;
+overflow:hidden;	
+}
+
+.jeep-inner
+{
+display:flex;
+max-width:1366px;	
+justify-content:space-between;
+align-items: flex-start;
+
+}
+
+.jeep-colums
+{
+flex-basis:32%;
+display:flex;
+justify-content:center;
+align-items: flex-start;
+overflow:hidden;
+padding:0.5em;
+margin-top:20px;
+margin-bottom:15px;
+//box-shadow: 0px 0px 10px 2px rgba(33,33,33,0.2);
+
+}
+
+
+
+
+/* -------------------------------------------------------------------jeep test drive banner section-----------------------------------------*/
+
+
+
+.test-drive-container
+
+{
+	
+display:flex;
+background-image: url("images/banners/test-drive.jpg");
+background-size: cover ;
+background-repeat: no-repeat;
+background-attachment: fixed;
+min-height:550px;
+background-position:center;	
+justify-content:center;
+align-items: center;
+overflow:hidden;
+margin-top:25px;
+
+}
+
+
+.test-drive-inner
+
+{
+
+display:flex;
+flex-basis:1366px;
+justify-content:flex-start;
+align-content: center;
+padding:0.5em;
+flex-wrap:wrap;	
+	
+}
+
+.test-drive-textbox
+
+{
+
+text-align:left; 
+flex-basis:55%;
+//min-height:220px;	
+	
+}
+
+.test-drive-heading
+
+{
+
+color:white; 
+font-family:arial;
+font-size:56px;
+color:white;
+font-weight:550;
+text-transform:uppercase;
+text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+line-height:65px;		
+}
+
+
+/* -------------------------------------------------------------------content selection section-----------------------------------------*/
+
+.content-selection-container
+
+{
+
+display:flex;	
+justify-content:center;
+align-items: center;
+overflow:hidden;	
+margin-top:48px;
+flex-wrap:wrap;	
+}
+
+.content-inner
+
+{
+
+display:flex;
+max-width:1366px;	
+justify-content:space-between;
+align-items: center;
+//flex-wrap:wrap;
+padding:0 0.7em ;
+	
+}
+
+.content-images
+{
+flex-basis:48%;
+display:flex;
+justify-content:center;
+align-items: center;
+overflow:hidden;
+//padding:0.5em;
+
+
+}
+
+.content-text
+{
+flex-basis:48%;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items: flex-start;
+overflow:hidden;
+padding:0.5em;
+//margin-top:20px;	
+
+//height:400px;
+	
+}
+
+
+
+/* -------------------------------------------------------------------jeep wave section-----------------------------------------*/
+
+
+
+
+
+
+/* -------------------------------------------------------------------fan wall section-----------------------------------------*/
+
+
+.fan-wall-container
+
+{
+	
+display:flex;	
+justify-content:center;
+align-items: center;
+overflow:hidden;	
+margin-top:48px;
+flex-wrap:wrap;	
+
+}
+
+.fan-wall-inner
+
+{
+
+display:flex;
+flex-basis:1366px;	
+justify-content:space-between;
+align-items: center;
+align-content:center;
+flex-wrap:wrap;
+padding:0.7em ;
+//gap:0 3px;
+
+	
+}
+
+
+
+
+
+.wall_box_small
+
+{
+ flex-grow:1;
+ flex-basis:33.33%;
+//height:250px;
+border-left:2.5px solid white;
+border-right:2.5px solid white;
+border-top:1px solid white;
+//border-bottom:1px solid white;
+overflow:hidden;
+	
+}
+
+.wall_box_big
+
+{
+flex-grow:2;
+flex-basis:50%;
+//height:320px;
+//border:1px solid white;
+border-left:2.5px solid white;
+border-right:2.5px solid white;
+border-top:1px solid white;
+//border-bottom:1px solid white;
+overflow:hidden;
+}
+
+
+.grow
+{
+	
+flex-grow:2;	
+	
+	
+}
+
+
+

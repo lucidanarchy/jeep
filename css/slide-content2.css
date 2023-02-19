@@ -1,0 +1,239 @@
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+/* ---------------------------------------------------jeep selection content slider-------------------------------------------- */
+
+/* class for javascript */
+
+.mySlides {display: none}
+.mySlides2 {display: none}
+
+/* Slideshow container */
+.jeep-container-controller {
+
+display:flex;
+  text-align:center;
+     //margin-top:10px;
+   
+}
+
+.controller-inner {
+
+
+  margin:auto;
+  padding-top:8px;
+   padding-bottom:4px;
+  //border-top:1px solid #8c8b8b;
+  //background:#8c8b8b;
+  flex-basis:100%;
+  //background:#aeaeae;
+  background:#e9aa02;
+  //background:#121212;
+  box-shadow: 0px 0px 10px 2px rgba(33,33,33,0.3);
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 22px;
+  width: 22px;
+   border-radius: 50%;
+  display: inline-block;
+  background:white;
+  //border:1px solid #474646;
+  margin-left:7px;
+  
+}
+
+
+.active, .dot:hover {
+  //background-color: #e9aa02;
+   background-color:#212121;
+//background-color:#474646;
+//background: linear-gradient(180deg,rgba(75,75,75,1) 0%, rgba(32,32,32,1) 100%);
+//background: linear-gradient(0deg, rgba(191,140,2,1) 0%, rgba(233,170,2,1) 100%);
+//background-color:#313131;
+//border:3px solid white;
+  //border:1px solid rgba(75,75,75,1);
+  box-shadow:inset 0px 0px 0px 3px white;
+  
+}
+
+.fade {
+ 
+ animation-name: mymove;
+  animation-duration: 0.6s;
+
+}
+
+
+@keyframes mymove {
+  from {opacity: .0} 
+  to {opacity: 1}
+  
+  
+}
+
+
+/*-----------------------------------------------content controller -----------------------------------------------------------------------*/
+
+
+.content-container-controller {
+display:flex;
+justify-content:flex-end;
+ 
+ text-align:right;
+flex-basis:1366px; 
+}  
+
+
+
+
+
+.content-controller-inner {
+
+  margin-right:45px;
+  
+}  
+
+
+
+
+
+.dot2 {
+  cursor: pointer;
+  height: 22px;
+  width: 22px;
+  margin-right:7px;           
+  //background:#dddddd;
+//background-color:#f4f4f3;  
+  border-radius: 50%;
+  display: inline-block;
+    border:1px solid #212121;
+  //border:1px solid #474646;
+  
+}
+
+
+
+
+
+.active2, .dot2:hover {
+  background-color: #e9aa02;
+   //background-color:#212121;
+//background-color:#474646;
+//background: linear-gradient(180deg,rgba(75,75,75,1) 0%, rgba(32,32,32,1) 100%);
+//background: linear-gradient(0deg, rgba(191,140,2,1) 0%, rgba(233,170,2,1) 100%);
+//background-color:#313131;
+//border:3px solid white;
+  //border:1px solid rgba(75,75,75,1);
+  box-shadow:inset 0px 0px 0px 3px white;
+  
+}
+
+
+
+
+  
+
+.fade2 {
+ 
+ animation-name: mymove2;
+  animation-duration: 0.6s;
+  
+}
+
+
+
+
+@keyframes mymove2 {
+  from {opacity: .0} 
+  to {opacity: 1}
+  
+  
+}
+
+/* -----------------------------------On smaller screens, decrease text size------------------------- */
+
+
+/*@media only screen and (max-width: 768px) {
+
+
+
+
+ .dots-container2 {
+width:40%;
+//margin-right:10px;
+  
+  text-align:center;
+     //margin-top:20px;
+   
+}  
+
+
+
+.dots-inner2 {
+//float:right;
+
+  margin-top:10px;
+  //margin-right:15px;
+  margin-bottom:10px;
+  
+  
+}  
+
+
+
+.dot2 {
+  cursor: pointer;
+  height: 18px;
+  width: 18px;
+  margin-right:7px;           
+  //backgroun:#dddddd;
+//background-color:#f4f4f3;  
+  border-radius: 50%;
+  display: inline-block;
+  //transition: background-color 0.3s ease;
+  //border:1px solid #212121;
+  border:1px solid #474646;
+  
+}
+  
+  
+  
+  
+  
+  
+  
+  
+}
+
+
+
+
+/* ---------------------------------------------------content image auto slider-------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

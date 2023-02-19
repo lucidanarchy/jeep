@@ -1,0 +1,1113 @@
+
+/* ------------------------------------------------------------------setups----------------------------------------------------- 
+
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+body, html {
+    height: 100%;
+}
+
+
+
+
+pre {
+	
+white-space: pre-wrap;
+//font-family:'helvetica', arial;
+ font-family:arial;
+ font-size:21px;
+//line-height:27px;
+
+	
+	
+}
+
+
+
+p {
+	
+//font-family:'helvetica', arial;
+ font-size:21px;	
+font-family:arial;	
+}
+
+img 
+{
+max-width:100%;	
+	
+}
+
+*/
+
+
+
+
+/* -------------------------------------------------shadows------------------------------------------------- 
+
+.text-shadow  {
+
+
+text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+
+}
+
+.light_shadow {
+	
+text-shadow: 2px 4px 3px 8px rgba(0,0,0,0.3);	
+	
+	
+}
+
+
+.obj_shadow
+
+{
+	
+box-shadow: 1px 1px 10px 7px rgba(0,0,0,0.3);	
+	
+}
+
+
+/* -----------------------------------------------arrow icon---------------------------------------------- 
+
+.arrow {
+  border: solid #5c5b5b;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-left: 8px;
+  margin-bottom:3px;
+  color: #343434;
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------ buttons--------------------------------------------------- */
+
+
+/* read more buttons flow */
+
+.btn-read-more {
+  
+  float:left;
+   width:130px;
+   text-align:center;
+  
+}
+
+.btn-read-more a{
+  display: block;
+  padding:15px 13px;
+	font-family:arial;
+     font-size: 16px;
+	 font-weight:bold;
+  text-decoration: none;
+   color: #212121;
+   position: relative;
+   box-shadow:inset 0px 0px 0px 1.3px #636363;
+  
+}
+
+ .btn-read-more a span{
+  position: relative;
+  z-index: 9;
+}
+
+.btn-read-more a:after{
+  position: absolute;
+  content: "";
+ bottom:0;
+ left:0;
+  width: 0;
+  height:100%;
+ background: #e9aa02;
+  transition: all .40s;
+  
+  
+}
+
+.btn-read-more a:hover{
+  color: #212121;
+ 
+
+ 
+}
+
+.btn-read-more a:hover:after{
+  width: 100%;
+   
+
+}
+
+
+
+
+
+
+/* hero button right */
+
+.btn-hero-right {
+  
+  margin-top: 40px;
+  //border: 2px solid white;
+  box-shadow:inset 0px 0px 0px 2px white;
+  
+}
+
+.btn-hero-right a{
+  
+  display: block;
+  padding:22px 24px;
+	font-family:arial;
+     font-size: 16px;
+	 font-weight:bold;
+	 //width:300px;
+	 //height:100px;
+  text-decoration: none;
+  color: #212121;
+  //color: #dddddd;
+  
+  position: relative;
+  //transition: all .35s;
+  background:rgba(255,255,255,0.5);
+  //background:rgba(193,120,5,0.6);
+ 
+  
+}
+
+ .btn-hero-right a span{
+  position: relative;
+  z-index: 2;
+}
+
+.btn-hero-right a:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height:100%;
+  background: #e9aa02;
+    transition: all .30s;
+  box-shadow:inset 0px 0px 0px 2px #ecac03;
+}
+
+.btn-hero-right a:hover{
+  color: #212121;
+  
+
+ 
+}
+
+.btn-hero-right a:hover:after{
+  width: 100%;
+  
+
+}
+
+
+/* flow hero button left */
+
+.btn-hero-left {
+  
+  //transform: translate(-50%, -50%);
+  float:left;
+  //margin-top: 45px;
+  //padding:4px;
+  //border: 2px solid white;
+  box-shadow:inset 0px 0px 0px 2px white;
+}
+
+.btn-hero-left a{
+  display: block;
+  padding:22px 24px;
+	font-family:arial;
+     font-size: 16px;
+	 font-weight:bold;
+	 //width:300px;
+	 //height:100px;
+  text-decoration: none;
+  color: #212121;
+  //color: #dddddd;
+  //-webkit-transition: all .6s ease-in-out;
+  //letter-spacing: 2px;
+  //text-align: center;
+  position: relative;
+  //transition: all .35s;
+  background:rgba(255,255,255,0.4);
+  //background:rgba(193,120,5,0.6);
+  //background:#c17805;
+  //overflow:hidden;
+  
+}
+
+ .btn-hero-left a span{
+  position: relative;
+  z-index: 2;
+}
+
+.btn-hero-left a:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height:100%;
+  background: #e9aa02;
+    transition: all .30s;
+  box-shadow:inset 0px 0px 0px 2px #ecac03;
+}
+
+.btn-hero-left a:hover{
+  color: #212121;
+  
+
+ 
+}
+
+.btn-hero-left a:hover:after{
+  width: 100%;
+  
+
+}
+
+
+		
+		
+/* --------------page hyper links ------------------- */
+
+.page a:link
+{
+	
+color:#212121;
+//line-height: 28px;	
+font-size:21px;		
+text-decoration:underline;
+
+	
+	
+}
+
+.page a:visited
+{
+	
+color:#212121;
+//text-decoration:none;
+
+	
+	
+}
+
+
+.page a:hover {
+    color: #e9aa02;
+  text-decoration:none;
+	 
+	
+		}
+
+
+
+/* ---------------------------------------------icon and heading---------------------------------------------*/
+
+
+
+
+.headline-big
+
+{
+
+color:#212121;
+font-size:32px; 
+font-weight:700;
+text-decoration: underline #e9aa02 8px;
+font-family: arial;
+line-height:58px;
+text-transform:uppercase;
+text-underline-offset: 9px;
+
+
+}	
+
+/* -------------------------------------------------text highlights------------------------------------------------- */
+
+/*
+.text_highlight
+{
+
+font-size:36px;
+//letter-spacing:1px;
+color:white;
+//color:#e9aa02;
+//color:#212121;  
+//background:#212121;
+//background:rgba(33,33,33,0.8);
+background:rgba(14,14,14,0.8);  
+//background:rgba(255,255,255,0.7); 
+//background:rgba(233,170,2);
+//background:#e9aa02;
+font-family:arial; 
+padding-left:12px;
+padding-right:12px;
+padding-top:4px;
+padding-bottom:3px;
+font-weight:750;
+//border-radius:40px;
+text-transform:uppercase;
+//line-height:65px;
+//border:1px solid white;	
+	
+	
+}
+
+-- */
+
+
+
+
+/* -------------------------------------------------spacers------------------------------------------------- */
+
+.spacer
+{
+width:100%;
+height:20px;
+//background: #212121;
+//background: #d4d4d3;
+//background: #e9aa02;
+//background: #eeedec;
+float:left;	
+margin-top:45px;
+//margin-bottom:45px;
+overflow:hidden;
+font-family:helvetica;
+font-size:42px;
+font-weight:bold;
+letter-spacing:-8px;
+padding:0;
+
+color:#c3c3c2;
+//color:grey;
+//color:#eeedec;
+//color:#dadad8;
+//color:#e9aa02;
+}
+
+.inner_spacer
+{
+max-width:1400px;
+margin:auto;	
+	
+	
+}
+
+.inner_spacer2   
+
+{
+	max-width:1366px;
+margin:auto;	
+height:20px;
+//background: #212121;
+//background: #d4d4d3;
+//background: #e9aa02;
+//background: #eeedec;
+//float:left;	
+margin-top:15px;
+//margin-bottom:45px;
+overflow:hidden;
+font-family:helvetica;
+font-size:42px;
+font-weight:bold;
+letter-spacing:-8px;
+padding:0;
+
+color:#c3c3c2;
+//color:grey;
+//color:#eeedec;
+//color:#dadad8;
+//color:#e9aa02;	
+	
+	
+}
+
+
+/* ------------------------------------- content containers ----------------------- -----*/
+
+
+
+.inner-box {
+max-width:1366px;
+margin:auto;
+//margin-top:20px;
+
+}
+
+.wide-box {
+
+width:100%;
+
+background:white;
+float:left;
+
+margin-top:25px;
+
+}
+
+
+.text-content
+
+{
+ 
+
+width:50%;
+height:auto;
+float:right;
+//padding:15px;
+overflow:hidden;
+margin-top: 90px;
+padding-left:70px;
+	
+}
+
+.pic-content
+
+{
+width:50%;
+float:left;
+//height:500px;
+height:auto;
+overflow:hidden;
+margin-top:15px;
+//margin-bottom:14px;
+}
+
+
+
+/* --------------------------------------------header section----------------------------------------*/
+
+
+  
+/* -----------------------------------------------------------responsive navigation-------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------- */  
+  
+  
+  
+.response-nav-container
+
+{
+
+width:100%;
+height:auto;
+overflow:hidden;
+display:none;
+
+
+}
+
+ 
+  
+
+/* ---------------------------------------------hero section-----------------------------------------*/
+
+
+
+
+.hero_container { 
+
+width:100%;
+background-image: url("images/hero/hero3.jpg");
+background-size: cover ;
+background-repeat: no-repeat;
+background-attachment: fixed;
+min-height:700px;
+background-position:center;	
+//border-bottom: 2px solid #212121;
+//margin-top:95px;
+//background-position:top;
+overflow:hidden;
+//transform:translatey(-10px)scale(1.03);
+//padding:40px;
+}
+
+.hero {
+max-width:1366px;
+margin:auto;
+padding:40px;
+
+}
+
+.hero_text_box
+
+{
+	
+	float:right; 
+	font-family:helvetica; 
+	text-align:left; 
+	line-height:52px;
+	margin-top:160px;
+	 width:auto;
+	padding:0;
+	//background: rgba(255, 255, 255, 0.3);
+	
+}
+
+.text_box
+
+{
+
+font-size:23px; 
+color:white;  
+line-height:28px;    
+margin-top:13px;
+ 
+	
+}
+
+
+
+
+.hero-text {
+	
+//font-size:33px; 
+//font-weight:bold;
+//text-shadow: 2px 4px 3px rgba(0,0,0,0.3) ;	
+	
+	
+	
+}
+
+.hero-logo {
+	
+margin-right:22px;
+	
+	
+	
+	
+}
+
+
+
+
+
+
+/* ------------------------------------------3 column jeep section-------------------------------*/
+
+.column_main{
+  
+  padding:10px;
+  float: left;
+  width: 32%; 
+  height: auto;
+    font-family:arial;
+  color:#212121;
+  text-transform:uppercase;
+  text-align:center;
+}
+
+.column_head {
+width:100%;
+margin-bottom:13px;
+color:#212121;
+font-family:arial;
+height:auto;
+text-align:center;
+text-transform:uppercase;
+
+
+} 
+
+/* ------------------------------------------3 column jeep section text styles-------------------------------*/
+
+
+
+
+
+/* ---------------------------------------------test drive banner section-----------------------------------------*/
+
+.mid_banner_container { 
+
+width:100%;
+background: #1e1e1c;
+background-image: url("mid_banner8.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+//height:100%;
+//min-height:550px;
+background-attachment: fixed;
+//height:660px;
+min-height:600px;
+background-position:center;	
+//border-top: 3px solid #212121;
+float:left;
+margin-top:15px;
+
+//transform:translatey(-10px)scale(1.04);
+}
+
+.mid_banner {
+max-width:1366px;
+
+margin:auto;
+
+padding:30px;
+
+}
+
+.mid_banner_text_box
+
+{
+	
+	float:left; 
+	font-family:helvetica; 
+	text-align:left; 
+	//line-height:52px;
+	margin-top:70px;
+	 width:550px;
+	 min-height:220px;
+	
+	
+	
+	
+}
+
+.banner_heading
+{
+color:white; 
+//font-family:helvetica;
+font-family:arial;
+ font-size:56px;
+ color:white;
+ font-weight:550;
+ text-transform:uppercase;
+	
+}
+
+/* ---------------------------------------------content section-----------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------jeep wave section-----------------------------------------*/
+
+.wave_banner_container { 
+
+width:100%;
+background: #1e1e1c;
+background-image: url("image/Overlanding3.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+//height:100%;
+//min-height:550px;
+background-attachment: fixed;
+//height:660px;
+min-height:600px;
+background-position:center;	
+//border-bottom: 2px solid #212121;
+margin-top:30px;
+float:left;
+//transform:translatey(-10px)scale(1.04);
+}
+
+.wave_banner {
+max-width:1366px;
+//margin-top:400px;
+margin:auto;
+//min-height:480px;
+//background:black;
+//overflow:hidden;
+padding:30px
+
+}
+
+.wave_banner_text_box
+
+{
+	margin-top:70px;
+	float:right; 
+	font-family:helvetica; 
+	text-align:left; 
+	//line-height:52px;
+	color:#212121;
+	 width:550px;
+	 min-height:220px;
+	padding-left:60px;
+     //background: rgba(33, 33, 33, 0.9);
+   //background: rgba(255, 255, 255, 0.5);
+	//background: white;
+	//filter: blur(2px);
+	//background:#212121;
+	//border: 1px solid white;
+     // border: 1px solid #212121;
+	//box-shadow: 1px 13px 50px 16px black;
+	
+	
+	
+}
+
+
+
+
+/* ---------------------------------------------fan wall section-----------------------------------------*/
+
+.fan_box_small
+
+{
+ 
+//margin-top:0.9px;
+ width:33.33%;
+height:250px;
+//height:auto;
+float:left;
+//background:#212121;
+color:white;
+border:2px solid white;
+overflow:hidden;
+//border: 1px solid #212121;
+//padding:0.2em;	
+	
+}
+
+.fan_box_big
+
+{
+ 
+//margin-top:20px;
+width:50%;
+height:320px;
+float:left;
+border:2px solid white;
+//background:#212121;
+overflow:hidden;
+//border: 1px solid #212121;
+//height:auto;	
+//padding:0.2em;	
+}
+
+
+
+
+
+
+/* --------------------------------------------footer message----------------------------------------------- */
+
+
+.msg_foot_inner
+{
+max-width:1366px;	
+margin:auto;
+font-family:'helvetica', arial;
+font-size:28px;
+text-align:center;
+text-transform:uppercase;
+font-weight:500;
+color:#666565;
+margin-top:60px;
+	
+	
+}
+
+
+.foot_spacer
+
+{
+background: #e9aa02;
+max-width:1200px;
+height:8px;
+margin-left:auto;
+margin-right:auto;	
+margin-top:8px;
+	
+	
+}
+
+
+
+/* --------------------------------------------footer image section----------------------------------------------- */
+
+.image_foot { 
+
+width:100%;
+background: #1e1e1c;
+background-image: url("image/footer_image2.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+//height:auto;
+//min-height:550px;
+//background-attachment: fixed;
+//height:auto;
+min-height:600px;
+background-position:center;	
+//border-bottom: 2px solid #212121;
+//margin-top:40px;
+float:left;
+overflow:hidden;
+//border-top:3px solid grey;
+
+}
+
+
+
+
+/* --------------------------------------------footer section----------------------------------------------- */
+
+
+
+
+.footer_wide_box {
+
+width:100%;
+min-height:250px;
+background:#212121;
+float:left;
+//border-top: 7px solid #d0cfcf;
+//margin-top:20px;
+//display: block;
+}
+
+.footer_inner_box {
+max-width:1366px;
+margin:auto;
+
+
+
+}
+
+.info_small_box {
+width:24%;
+float:left;
+margin-left:10px;
+
+}
+
+
+
+
+
+.hyper1_small_box {
+width:25%;
+float:left;
+padding-left:74px;
+margin-top:4px;
+
+}
+
+.hyper2_small_box {
+width:25%;
+float:left;
+padding-left:74px;
+margin-top:4px;
+}
+
+.footer_small_badge {
+width:25%;
+float:left;
+padding-left:74px;
+margin-top:12px;
+
+
+}
+
+.badge-text
+{
+
+color:#616160; 
+font-size: 19px;
+line-height:24px;
+margin-top:65px;
+	
+	
+}
+
+.foot-jeep
+{
+
+max-width:100%; 
+float:left; 
+margin-right:14px;
+
+
+}
+
+.img-move
+
+{
+float:left;
+margin-left:11px;
+margin-top:9px;	
+//width:7%;	
+	
+	
+}
+
+
+
+
+
+.foot_heading 
+
+{
+
+font-family:'helvetica', arial;	
+color:#d0cfcf;
+font-size:17px; 
+font-weight:bold;
+//text-decoration: underline #e9aa02 3px 6px;
+//line-height:24px;
+font-weight:bold; 
+text-transform:uppercase;
+padding-bottom:6px;
+border-bottom:3px solid #e9aa02;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------footer button ------------------- */
+
+
+.btn_foot a {
+  
+    color: #212121;
+	text-decoration: none;
+	margin-left:1px;
+	padding:11px 11px;
+	font-family:arial;
+     font-size: 15px;
+	font-weight:bold;
+	 background:white;
+	 //border: 1px solid #212121;
+     transition:.5s ease;
+	  //float:left;
+	  //margin-top:-40px;
+	 
+	  	    		
+}
+
+.btn_foot a:hover {
+    color: #212121;
+    background:  #e9aa02;
+	//border: 1px solid #e9aa02;
+	
+	
+		}
+
+.final_footer
+{
+width:100%;
+min-height:25px;
+//background:#1a1a1a;
+background: #0e0e0e;
+float:left;
+text-align: center;
+line-height: 45px;
+border-top: 1px solid #3f3e3e;
+color:#616160;
+font-size: 12px;
+font-family: arial;
+border-bottom: 1px solid #3f3e3e;
+//margin-bottom: 1px;
+//display: block;	
+}
+
+
+
+
+
+
+
+.test
+
+{
+float:left;
+width:100%;
+height:40px;
+background:green;
+display:none;	
+	
+	
+	
+}
+
+
+
+/*-----------------------------------------------------------------------------------------media query------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+  
+
+/*@media all and (max-width:1280px) and (min-width:801px)
+
+@media only screen and (max-width: 768px)
+
+ 
+//@media screen and (max-width:800px) 
+@media all and (max-width:1280px) and (min-width:769px)
+	
+*/
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+

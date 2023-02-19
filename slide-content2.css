@@ -1,0 +1,283 @@
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+/* ---------------------------------------------------jeep selection content slider-------------------------------------------- */
+
+/* class for javascript */
+
+.mySlides {display: none}
+.mySlides2 {display: none}
+.mySlides3 {display: none}
+
+/* Slideshow container */
+.jeep-container-controller {
+
+display:flex;
+  text-align:center;
+    // margin-top:10px;
+  border-top:1px solid rgb(220,220,220); 
+  border-bottom:1px solid rgb(220,220,220); 
+	//padding-top:12px;
+}
+
+.controller-inner {
+
+
+  margin:auto;
+  padding-top:13px;
+   padding-bottom:8px;
+ // border-top:1px solid #8c8b8b;
+  //background:#8c8b8b;
+  //background:#545454;
+  flex-basis:100%;
+ //background:#aeaeae;
+  //background:#e9aa02;
+  //background:#323232;
+  //background:#222222;
+  background:rgb(240,240,240);
+ //background:#f1f1f1;
+  //box-shadow: 0px 0px 10px 2px rgba(33,33,33,0.3);
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+   border-radius: 50%;
+  display: inline-block;
+ //background:#919191;
+background:rgb(190,190,190);
+//background:rgb(255,255,255);
+ //background:white;
+  //border:1px solid grey;
+  margin-left:4px;
+  
+}
+
+
+.active, .dot:hover {
+  //background-color: #e9aa02;
+  //background-color:#414141;
+   //background-color:black;
+//background-color:#474646;
+background-color:#616161;
+//background-color:#313131;
+//border:3px solid white;
+  //border:1px solid rgba(75,75,75,1);
+  //box-shadow:inset 0px 0px 0px 3px white;
+ 
+  
+}
+
+.fade {
+ 
+ animation-name: mymove;
+  animation-duration: 0.6s;
+
+}
+
+
+@keyframes mymove {
+  from {opacity: .0} 
+  to {opacity: 1}
+  
+  
+}
+
+
+
+
+
+/* ---------------------------------------------------jeep selection content slider mobi-------------------------------------------- */
+
+
+
+/* Slideshow container */
+.jeep-container-mobi {
+
+display:flex;
+  text-align:center;
+    // margin-top:10px;
+  border-top:1px solid rgb(220,220,220); 
+  border-bottom:1px solid rgb(220,220,220); 
+	//padding-top:12px;
+}
+
+.controller-mobi{
+
+
+  margin:auto;
+  padding-top:13px;
+   padding-bottom:8px;
+ // border-top:1px solid #8c8b8b;
+  //background:#8c8b8b;
+  //background:#545454;
+  flex-basis:100%;
+ //background:#aeaeae;
+  //background:#e9aa02;
+  //background:#323232;
+  //background:#222222;
+  background:rgb(240,240,240);
+ //background:#f1f1f1;
+  //box-shadow: 0px 0px 10px 2px rgba(33,33,33,0.3);
+}
+
+
+/* The dots/bullets/indicators */
+.dot8 {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+   border-radius: 50%;
+  display: inline-block;
+ //background:#919191;
+background:rgb(190,190,190);
+//background:rgb(255,255,255);
+ //background:white;
+  //border:1px solid grey;
+  margin-left:4px;
+  
+}
+
+
+.active8, .dot8:hover {
+  //background-color: #e9aa02;
+  //background-color:#414141;
+   //background-color:black;
+//background-color:#474646;
+background-color:#616161;
+//background-color:#313131;
+//border:3px solid white;
+  //border:1px solid rgba(75,75,75,1);
+  //box-shadow:inset 0px 0px 0px 3px white;
+ 
+  
+}
+
+.fade3 {
+ 
+ animation-name: mymove3;
+  animation-duration: 0.6s;
+
+}
+
+
+@keyframes mymove3 {
+  from {opacity: .0} 
+  to {opacity: 1}
+  
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------content controller -----------------------------------------------------------------------*/
+
+
+.content-container-controller {
+display:flex;
+max-width:1366px;
+justify-content:flex-end;
+text-align:right;
+//margin:auto;
+width:100%;
+//border-bottom: 1px solid grey;
+//margin-top:10px;
+//background:blue;
+ padding:0 25px;
+}  
+
+
+
+
+.dot2 {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin-right:7px;           
+  //background:#dddddd;
+//background-color:#f4f4f3;  
+  border-radius: 50%;
+  display: inline-block;
+    //border:1px solid #212121;
+  //border:1px solid #474646;
+  //border:1px solid #717171;
+  background:rgb(200,200,200);
+  
+}
+
+
+
+
+
+.active2, .dot2:hover {
+  //background-color: #e9aa02;
+  // background-color:#212121;
+//background-color:#474646;
+//background: linear-gradient(180deg,rgba(75,75,75,1) 0%, rgba(32,32,32,1) 100%);
+//background: linear-gradient(0deg, rgba(191,140,2,1) 0%, rgba(233,170,2,1) 100%);
+//background-color:#313131;
+//border:3px solid white;
+  //border:1px solid rgba(75,75,75,1);
+  //box-shadow:inset 0px 0px 0px 3px white;
+   background-color:#616161;
+}
+
+
+
+
+  
+
+.fade2 {
+ 
+ animation-name: mymove2;
+  animation-duration: 0.6s;
+  
+}
+
+
+
+
+@keyframes mymove2 {
+  from {opacity: .0} 
+  to {opacity: 1}
+  
+  
+}
+
+
+
+@media screen and (max-width: 800px) 
+
+{
+
+.dot8 {
+
+  height: 13px;
+  width: 13px;
+  margin-left:6px;
+  
+}
+
+
+
+
+
+
+
+}
